@@ -1,0 +1,180 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>签到</title>
+<link rel="stylesheet" href="Public/css/bootstrap3/css/bootstrap.min.css">
+<link rel="stylesheet" href="Public/css/style5.css">
+<link rel="stylesheet" href="Public/css/qiandao_style.css">
+	<link rel="stylesheet" href="Public/css/layui.css"  media="all">
+	<script type="text/javascript" src="/Public/js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<script>
+    function validate2(){
+        $.get("index.php?c=index&a=early_ajax", function(data){
+            var res = eval("(" + data + ")");//转为Object对象
+            var str = res.day;
+			document.getElementById('day').innerHTML = str;
+        });
+    }
+</script>
+<div style="width: 100%;height: 50px;background-color: #009DD9;
+padding-top: 10px;">
+	<div style="color: black;float: left;width: 40%;padding-left: 10px;" align="left;"><a href="index.php?c=index">退出</a></div><div style="color: white;font-size: 20px; text-align: left;float: left;width: 60%;" align="left"><storng>早起签到</storng></div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 clearPadding">
+			<div class=""><img src="Public/images/qdBanner.jpg" class="img-responsive"></div>
+
+			<div class="calendar">
+				<div class="calenbox">
+					<div id="calendar"></div>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-qiandao" onClick="signIn()">马上签到</button>
+				</div>
+			</div>
+			<!--<div class="padding10">-->
+				<!--<div class="font16 pb10 borderb"><strong>连续签到礼包</strong></div>-->
+				<!--<div class="libaolist">-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">5天礼包（200菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到5天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-lingqu">领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">10天礼包（400菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到10天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-disable" disable>已领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">15天礼包（800菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到15天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-lingqu">领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">20天礼包（1200菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到20天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-lingqu">领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">25天礼包（1800菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到25天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-lingqu">领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="clearfix borderb ptb10">-->
+						<!--<div class="col-xs-9 clearPadding">-->
+							<!--<div class="media">-->
+								<!--<a class="media-left pt3" href="javascript:void(0);">-->
+									<!--<img src="Public/images/dou.png" style="width:30px;height:30px;">-->
+								<!--</a>-->
+								<!--<div class="media-body">-->
+									<!--<div class="">30天礼包（3000菲亚时尚欢乐豆）</div>-->
+									<!--<div class="text-muted font12">连续签到30天即可领取</div>-->
+								<!--</div>-->
+							<!--</div>-->
+						<!--</div>-->
+						<!--<div class="col-xs-3 clearPadding text-right pt2">-->
+							<!--<button class="btn btn-lingqu">领取</button>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+			</div>
+		</div>
+	</div>
+</div>
+<input type="text" name="tmp_month" id="tmp_month" value="1">
+<div class="maskbox"></div>
+<div class="qdbox">
+	<div class="text-center text-green font18"><strong>签到成功！</strong></div>
+	<div class="text-center pt10">您已经连续签到&nbsp;<span class="text-green" id="day">1</span>&nbsp;天</div>
+	<div class="text-center ptb15"><img src="Public/images/gift.png" style="width:125px;margin-left:20px;"></div>
+	<!--<div class="text-center"><button class="btn btn-lottery"><a href="turnlate.html" target="_blank">去抽奖</a></button></div>-->
+</div>
+<script src="Public/js/jquery-1.10.2.min.js"></script>
+<script src="Public/js/calendar.js"></script>
+<script>
+function  signIn(){
+	$(".maskbox").fadeIn();
+	$(".qdbox").fadeIn();
+	$(".maskbox").height($(document).height());
+validate2();
+
+}
+$(".maskbox").click(function(){
+	$(".maskbox").fadeOut();
+	$(".qdbox").fadeOut();
+});
+var month = 1;
+
+$(function(){
+  //ajax获取日历json数据,一运行就会加载
+    $.get("index.php?c=index&a=early_month", function(data){
+        var res = eval("(" + data + ")");//转为Object对象
+        var signList=res;
+        calUtil.init(signList);
+    });
+
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,623 @@
+[ 2017-05-28T12:09:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\wap\Application\Home\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-28T12:09:35+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.260783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009096s ]
+
+[ 2017-05-28T12:09:43+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: state D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-05-28T12:10:06+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014769s ]
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 20 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 21 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1495s ]
+SQL: SELECT * FROM `user` WHERE ( username="root" ) LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 103 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-28T12:10:06+08:00 ] 127.0.0.1 /index.php?m=&&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031126s ]
+
+[ 2017-05-28T12:10:17+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0547s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-05-28T12:10:19+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 4 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2017-05-28T12:10:21+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=1&r_id=94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 94 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='94',`u_id`='1',`up_id`='1',`w_name`='rush through',`w_symbol`=NULL,`w_translate`='匆忙做完，快速通过',`r_day_num`='4',`r_state`='2' WHERE `r_id` = 94 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-05-28T12:10:24+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 94 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 4 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-05-28T12:10:29+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=1&r_id=84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 84 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='84',`u_id`='1',`up_id`='1',`w_name`='not a little',`w_symbol`=NULL,`w_translate`='许多，很',`r_day_num`='4',`r_state`='2' WHERE `r_id` = 84 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-05-28T12:10:31+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 84 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 4 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2017-05-28T12:10:33+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=1&r_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0614s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 74 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='74',`u_id`='1',`up_id`='1',`w_name`='have a dislike of',`w_symbol`=NULL,`w_translate`='不喜欢，讨厌',`r_day_num`='4',`r_state`='2' WHERE `r_id` = 74 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-05-28T12:10:34+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 74 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 4 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2017-05-28T12:11:00+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0740s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-05-28T12:11:11+08:00 ] 127.0.0.1 /index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-05-28T12:11:25+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-05-28T12:12:31+08:00 ] 127.0.0.1 /index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-05-28T12:12:36+08:00 ] 127.0.0.1 /index.php?c=plan&a=note&tip=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `words_record` WHERE `r_state` = 1 AND `u_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-05-28T12:12:43+08:00 ] 127.0.0.1 /index.php?c=plan&a=note&tip=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `words_record` WHERE `r_state` = 2 AND `u_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2017-05-28T19:10:16+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027246s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0264s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:10:48+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:10:49+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0105s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0006s ]
+
+[ 2017-05-28T19:10:50+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0139s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:10:50+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:16:01+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0144s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:16:39+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:16:45+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0103s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:16:51+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0118s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+
+[ 2017-05-28T19:18:19+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 110 行.
+
+[ 2017-05-28T19:42:32+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-05-28T19:46:25+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.1063s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016697s ]
+
+[ 2017-05-28T19:50:03+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0108s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-05-28T19:50:44+08:00 ] 127.0.0.1 /index.php?c=index&a=early_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `early_record` [ RunTime:0.0108s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\Early_recordModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `early_record`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-05-28T19:50:45+08:00 ] 127.0.0.1 /index.php?c=index&a=early_ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-05-28T19:50:49+08:00 ] 127.0.0.1 /index.php?c=index&a=early_ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+

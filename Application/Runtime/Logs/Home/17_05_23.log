@@ -1,0 +1,1591 @@
+[ 2017-05-23T10:19:26+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021328s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 81 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='81',`u_id`='1',`up_id`='1',`w_name`='major',`w_symbol`='\'meidʒə',`w_translate`=' adj.较大的 主要的 较多的 大部份的 n.专业 主修 成年人 陆军少校 巨头 vi.主修',`r_day_num`='1',`r_state`='1' WHERE `r_id` = 81 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 0 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009294s ]
+
+[ 2017-05-23T10:19:32+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\wap\Application\Home\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-23T10:19:32+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-05-23T10:19:33+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: state D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-05-23T10:19:40+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 20 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 21 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `user` WHERE ( username="root" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 103 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-05-23T10:19:40+08:00 ] 127.0.0.1 /index.php?m=&&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2017-05-23T10:19:43+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.1239s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-05-23T10:19:44+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 0 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-05-23T10:20:02+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0116s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-05-23T10:20:39+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-23T10:20:58+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-23T10:21:09+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2017-05-23T10:22:36+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2017-05-23T10:22:40+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-05-23T10:22:46+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2017-05-23T20:03:41+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022504s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009534s ]
+
+[ 2017-05-23T20:03:45+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-05-23T20:04:19+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 192 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `words_record` SET `r_id`='192',`u_id`='1',`up_id`='1',`w_name`='recorder',`w_symbol`='ri\'kɔ:də',`w_translate`=' n.记录者 录音机 (英国某些市镇的)首席法官 市法院法官 竖笛',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 192 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-05-23T20:04:27+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-05-23T20:07:14+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 192 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `words_record` SET `r_id`='192',`u_id`='1',`up_id`='1',`w_name`='recorder',`w_symbol`='ri\'kɔ:də',`w_translate`=' n.记录者 录音机 (英国某些市镇的)首席法官 市法院法官 竖笛',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 192 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-05-23T20:07:17+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 192 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `words_record` SET `r_id`='192',`u_id`='1',`up_id`='1',`w_name`='recorder',`w_symbol`='ri\'kɔ:də',`w_translate`=' n.记录者 录音机 (英国某些市镇的)首席法官 市法院法官 竖笛',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 192 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-05-23T20:07:20+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-05-23T20:07:21+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-05-23T20:07:25+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-05-23T20:07:29+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-05-23T20:07:30+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-05-23T20:07:30+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-05-23T20:07:31+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-05-23T20:07:31+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-05-23T20:07:31+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-05-23T20:07:32+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-23T20:07:33+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-05-23T20:07:34+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-05-23T20:07:35+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-05-23T20:07:37+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-23T20:07:38+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-05-23T20:07:38+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-05-23T20:07:39+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-05-23T20:07:39+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-05-23T20:07:40+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-05-23T20:07:46+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-05-23T20:07:47+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-05-23T20:07:47+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-05-23T20:07:47+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-05-23T20:07:48+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-05-23T20:07:54+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-05-23T20:07:56+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-05-23T20:07:57+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-05-23T20:08:05+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-05-23T20:08:06+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-05-23T20:08:08+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-05-23T20:15:51+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-05-23T20:15:56+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-05-23T20:16:19+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-05-23T20:16:21+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=undefined&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-05-23T20:16:49+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-05-23T20:16:53+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=undefined&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-05-23T20:17:18+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-05-23T20:17:25+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-05-23T20:17:50+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-05-23T20:17:53+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=undefined&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-05-23T20:18:04+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-05-23T20:18:09+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-05-23T20:18:28+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-05-23T20:18:42+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=undefined&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-05-23T20:20:22+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-05-23T20:20:25+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-05-23T20:21:35+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-05-23T20:21:39+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-05-23T20:21:58+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2017-05-23T20:22:02+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-05-23T20:22:17+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-05-23T20:22:19+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-05-23T20:31:25+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-05-23T20:31:28+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=172
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 172 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='172',`u_id`='1',`up_id`='1',`w_name`='twelve',`w_symbol`='twelv',`w_translate`=' num.十二 十二个',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 172 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-05-23T20:31:31+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 162 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='162',`u_id`='1',`up_id`='1',`w_name`='cloth',`w_symbol`='klɔθ',`w_translate`=' n.布 衣料 桌布',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 162 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-05-23T20:31:32+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 152 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `words_record` SET `r_id`='152',`u_id`='1',`up_id`='1',`w_name`='American',`w_symbol`='ə\'merikən',`w_translate`=' adj.美洲的 美国的 美式的 n.美国人 美式英语',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 152 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-05-23T20:31:49+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-05-23T20:31:52+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 142 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='142',`u_id`='1',`up_id`='1',`w_name`='stadium',`w_symbol`='\'steidiəm',`w_translate`=' n.露天大型运动场 竞技场',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 142 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-05-23T20:31:58+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-05-23T20:36:23+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-05-23T20:36:29+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='132',`u_id`='1',`up_id`='1',`w_name`='shepherd',`w_symbol`='\'ʃepəd',`w_translate`=' n.牧羊人 羊倌 牧师 指导者 v.看守 领导 指导',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 132 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-05-23T20:36:33+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 122 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='122',`u_id`='1',`up_id`='1',`w_name`='content',`w_symbol`='\'kɔntent,kən\'tent',`w_translate`=' n.内容 目录 容量 adj.满足的 满意的 vt.使...满足 使...安心',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 122 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-05-23T20:38:05+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-05-23T20:38:12+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 112 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='112',`u_id`='1',`up_id`='1',`w_name`='daily',`w_symbol`='\'deili',`w_translate`=' adj.每日的 按天计算的 日常的 adv.每日 天天 n.日报 (复)工作样片',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 112 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-05-23T20:38:19+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=1&r_id=102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 102 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='102',`u_id`='1',`up_id`='1',`w_name`='member',`w_symbol`='\'membə',`w_translate`=' n.成员 会员 部位',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 102 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-05-23T21:16:57+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1&r_id=182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 182 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `words_record` SET `r_id`='182',`u_id`='1',`up_id`='1',`w_name`='handful',`w_symbol`='\'h鎛dful',`w_translate`=' n.一把 少数 一小撮 棘手之事 【非正式用语】 难以控制的人或费劲的事',`r_day_num`='2',`r_state`='1' WHERE `r_id` = 182 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 2 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
