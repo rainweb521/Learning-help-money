@@ -20,7 +20,7 @@ class LoginModel extends Model{
      * @return mixed
      */
     public function get_Info($id){
-        $where['id'] = $id;
+        $where['u_id'] = $id;
 //        $result = $this->_db->where('id=',$id)->find();
         $result = $this->_db->where($where)->find();
         return $result;
@@ -31,5 +31,15 @@ class LoginModel extends Model{
     }
     public function set_Info($insert_arr){
         $this->_db->add($insert_arr);
+    }
+    public function get_Balance($u_id){
+        $result = $this->get_Info($u_id);
+        return $result['balance'];
+    }
+    public function set_Balance($u_id,$p_money){
+        $result = $this->get_Info($u_id);
+        $result['balance'] = $result['balance'] - $p_money;
+        $where['u_id'] = $u_id;
+        $this->_db->where($where)->save($result);
     }
 }

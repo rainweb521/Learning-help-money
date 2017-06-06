@@ -17,10 +17,14 @@ class PlanController extends CommonController{
     }
     public function add(){
         $flag = request('post','int','flag',0);
+        //这个是点击计划以后的选择跳转
         if($flag==0){
             $p_id = request('get','int','p_id',0);
             if($p_id!=0){
+                $u_id = $_SESSION['u_id'];
+                $balance = D('Login')->get_Balance($u_id);
                 $this->assign('p_id',$p_id);
+                $this->assign('balance',$balance);
             }
         }else{
             $arr['p_id'] = request('post','int','p_id',0);
@@ -35,7 +39,14 @@ class PlanController extends CommonController{
             $arr['p_status'] = 0;
             $arr['p_date'] = date("Y-m-d");
             $up_id = D('U_Plan')->set_Info($arr);
-
+            /**
+             * 开始记录交易记录
+             * 1. 将选定计划所投入的资金扣掉
+             * 2. 将这次记录放入交易记录中
+             */
+            D('Login')->set_Balance($arr['u_id'],$arr['p_money']);
+            $plan_arr = D('Plan')->get_Info($arr['p_id']);
+            D('Trading_record')->add_Record($arr['u_id'],date("Y-m-d"),$plan_arr['p_name'].'计划投入'.$arr['p_money'].'元');
             if($arr['p_id']==1){
                 //获取用户所需要的单词
                 $num = $arr['p_day'] * $arr['p_num'];

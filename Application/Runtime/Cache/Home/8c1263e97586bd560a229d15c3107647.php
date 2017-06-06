@@ -37,13 +37,19 @@
                     alert('每日单词数不能为空');
                     return 0;
                 }
+                var balance = document.getElementById('balance').innerHTML;
                 p_money = parseInt(p_money);
                 p_day = parseInt(p_day);
                 p_num = parseInt(p_num);
+                balance = parseInt(balance);
                 if (p_money>200||p_money<10){
                     alert('投资金额填写无效');
                     return 0;
 				}
+                if (p_money>balance){
+                    alert('投资金额大于可用余额');
+                    return 0;
+                }
                 if (p_day>30||p_day<10){
                     alert('计划期限填写无效');
                     return 0;
@@ -94,7 +100,7 @@
 			</section>
 
 			<section>
-				<h3>可用余额 <a href="#">立即充值</a> </h3>
+				<h3>可用余额 <span style="color: #ff9966;" id="balance"><?php echo ($balance); ?></span>元 <a href="#">立即充值</a> </h3>
 			</section>
 			
 			<div class="tou-sub" align="center"><input type="button" style="width: 50%;"  class="layui-btn layui-btn-radius layui-btn-normal" onclick="mysubmit()" value="提交" data-role="none"/>
