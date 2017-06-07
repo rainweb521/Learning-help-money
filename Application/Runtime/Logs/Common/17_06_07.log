@@ -550,3 +550,273 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
 ERR: 无法加载模块:Admin-table
 
+[ 2017-06-07T14:46:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:46:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:46:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:46:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:46:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:47:53+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:47:53+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:47:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:47:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:47:54+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:49:07+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:49:07+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:49:07+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:49:07+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:49:07+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:50:14+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:50:14+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:50:14+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:50:14+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:50:14+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:53:32+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:53:32+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:53:32+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:53:32+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:53:32+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:56:46+08:00 ] 127.0.0.1 /assets/i/examples/admin-chrome.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:56:46+08:00 ] 127.0.0.1 /assets/i/examples/admin-firefox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:56:46+08:00 ] 127.0.0.1 /assets/i/examples/admin-ie.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:56:46+08:00 ] 127.0.0.1 /assets/i/examples/admin-safari.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T14:56:46+08:00 ] 127.0.0.1 /assets/i/examples/admin-opera.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:00:47+08:00 ] 127.0.0.1 /admin-table.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Admin-table
+
+[ 2017-06-07T15:35:14+08:00 ] 127.0.0.1 /admin-index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Admin-index
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:49:00+08:00 ] 127.0.0.1 /assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:39+08:00 ] 127.0.0.1 /assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-06-07T15:50:40+08:00 ] 127.0.0.1 /assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Assets
+
