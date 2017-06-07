@@ -110,6 +110,10 @@ class PlanController extends CommonController{
         }
         $this->display();
     }
+
+    /**
+     * 学习过程的设置
+     */
     public function learn(){
         $up_id = request('get','int','up_id',0);
         if($up_id!=0){
@@ -124,11 +128,14 @@ class PlanController extends CommonController{
             $result = D('Words_record')->get_Day_Info($value,$up_id);
             $num = $u_plan['p_num'] - sizeof($result);
             $num = ($num / $u_plan['p_num']) * 100;
+            //如果今日计划已完成，则可以分配收益
             if ($num==100){
                 $ret = array_pop($result);
                 $ret['w_name'] = '恭喜你，今日学习进度已完成！';
                 $this->assign('num',$num);
                 $this->assign('words',$ret);
+
+
             }else{
                 $this->assign('num',$num);
                 $this->assign('up_id',$up_id);

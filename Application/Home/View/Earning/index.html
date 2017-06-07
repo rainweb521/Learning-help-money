@@ -27,7 +27,7 @@
 				<h2 style="font-size: 40px;">￥122579.17</h2>
 				<h5 style="font-size: 13px;">昨日收益(元)</h5>
 				<br>
-				<h5 style="font-size: 15px;">总资产20元</h5>
+				<h5 style="font-size: 15px;">总资产&nbsp;20&nbsp;元</h5>
 			<!-- 	<div   style="font-size: 15px;padding-left: 90px;" >
 					<li style="float: left;">昨日收益 <br>25.15元 </li>
 
@@ -55,26 +55,22 @@
 </section>
     <section class="mt-1">
         <div class="ps-lt">
+            <a href="index.php?c=earning&a=record&tip=0">
             <div class="lt-dsb cl-bb">
                 <p>收益记录</p>
                 <i class="arr-right"></i>
             </div>
+            </a>
         </div>
     </section>
 <section class="mt-1">
     <div class="ps-lt">
+        <a href="index.php?c=earning&a=record&tip=1">
         <div class="lt-dsb cl-bb">
             <p>交易记录</p>
             <i class="arr-right"></i>
         </div>
-    </div>
-</section>
-<section class="mt-1">
-    <div class="ps-lt">
-        <div class="lt-dsb cl-bb">
-            <p>收益设置</p>
-            <i class="arr-right"></i>
-        </div>
+        </a>
     </div>
 </section>
 <section class="mt-1" >
