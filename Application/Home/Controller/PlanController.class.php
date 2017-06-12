@@ -10,6 +10,9 @@ namespace Home\Controller;
 use Think\Controller;
 class PlanController extends CommonController{
     public function index(){
+//        $earn_arr = get_Earning(20,10,10);
+//        var_dump($earn_arr);
+//        exit();
         $this->get_session();
         $plan_arr = D('U_Plan')->get_AllInfo();
         $this->assign('plan_arr',$plan_arr);
@@ -209,5 +212,13 @@ class PlanController extends CommonController{
     public function notebook(){
 
         $this->display();
+    }
+    public function ajax_earning(){
+        $money = request('get','int','money',0);
+        $words = request('get','int','words',0);
+        $day = request('get','int','day',0);
+        $earn_arr = get_Earning($words,$money,$day);
+        $ret = array('sum'=>$earn_arr[1],'max'=>$earn_arr[0][$day-1]);
+        echo json_encode($ret);
     }
 }

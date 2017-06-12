@@ -14,7 +14,9 @@
 		 <link rel="stylesheet" href="Public/css/jquery.mobile-1.4.5.min.css"/>
    		 <link rel="stylesheet" href="Public/css/style4.css"/>
    		 <link rel="stylesheet" href="Public/css/layui.css"  media="all">
-   		<!--jqmb需要把所以东西放在page div内--> 
+		<script type="text/javascript" src="/Public/js/jquery-3.2.1.min.js"></script>
+
+		<!--jqmb需要把所以东西放在page div内-->
 		<header data-role="header" data-position="fixed">
 			<a href="#" data-rel="back" class="ui-btn ui-icon-carat-l ui-btn-icon-left ui-nodisc-icon" data-transition="slide" data-direction="revserse">返回</a> 
 			<h3>选择计划</h3>
@@ -66,6 +68,30 @@
                 document.getElementById('myForm').action = "index.php?c=plan&a=add";
                 document.getElementById("myForm").submit();
             }
+            function get_earning(){
+                var p_money = document.getElementById('p_money').value;
+                var p_day = document.getElementById('p_day').value;
+                var p_num = document.getElementById('p_num').value;
+                if(p_money==''){
+                    alert('投资金额不能为空');
+                    return 0;
+                }
+                if(p_day==''){
+                    alert('计划期限不能为空');
+                    return 0;
+                }
+                if(p_num==''){
+                    alert('每日单词数不能为空');
+                    return 0;
+                }
+                $.get("index.php?c=plan&a=ajax_earning&money="+p_money+"&day="+p_day+"&words="+p_num, function(data){
+                    var res = eval("(" + data + ")");//转为Object对象
+                    var sum = res.sum;
+                    var max = res.max;
+                    document.getElementById('earning_sum').innerHTML = sum + '元';
+                    document.getElementById('earning_max').innerHTML = max + '元';
+                });
+			}
 		</script>
 		<div class="ui-content" data-role="content">
 			<form method="post"  id="myForm">
@@ -85,15 +111,15 @@
 					</li>
 					<li>
 						<small>预计总收益</small>
-						<span>0元</span>
+						<span id="earning_sum">0元</span>
 					</li>
 					<li>
-						<small>预计每日收益</small>
-						<span>0元</span>
+						<small>预计每日最大收益</small>
+						<span id="earning_max">0元</span>
 					</li>
 
 					<li style="height: 40px;">
-						<button class="layui-btn layui-btn-primary">点击计算预计收益</button>
+						<input type="button" class="layui-btn layui-btn-primary" onclick="get_earning()" value="点击计算预计收益"/>
 					</li>
 
 				</ul>

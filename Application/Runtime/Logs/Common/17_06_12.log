@@ -178,3 +178,357 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
 ERR: 无法加载模块:Public
 
+[ 2017-06-12T14:35:33+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:37+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:38+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:38+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:39+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:39+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:44+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:46+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:47+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:47+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:49+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:35:49+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:41:26+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:41:26+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:41:49+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:41:49+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:42:04+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:42:04+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:42:38+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:42:38+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:43:27+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:43:27+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:02+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:05+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:07+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:07+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:25+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:44:25+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000470s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:45:23+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:45:23+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:51:45+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:51:53+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:57:29+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:57:29+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:57:55+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:57:55+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:04+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:05+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:29+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:29+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:41+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:58:41+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:59:54+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T14:59:54+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:01:51+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:01:51+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:02:18+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:02:19+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:07:06+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:07:07+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:07:20+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:07:20+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:09:02+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:09:02+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:10:39+08:00 ] 127.0.0.1 /Public/css/images/ajax-loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:10:39+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:13:43+08:00 ] 127.0.0.1 /Public/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:13:47+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-12T15:13:53+08:00 ] 127.0.0.1 /Public/img/projection.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+

@@ -109,3 +109,25 @@ function getMonthNum( $date1, $date2, $tags='-' ){
     $date2 = explode($tags,$date2);
     return abs($date1[0] - $date2[0]) * 12 + abs($date1[1] - $date2[1]);
 }
+function get_Earning($words,$money,$day,$p_day=5.5){
+   // $p_day = 5.5; //计划天数，为常量，值不需要改变
+  //  $w_num = 30; //#单词个数
+   // $money = 50; //#总投资
+   // $day = 15; #
+//    a = 0 #学习时长
+//    z = 5  # 坚持天数
+    $earn_arr = array();
+    $earn_day = array();
+    $sum = 0.0;
+    for ($i=1;$i<=$day;$i++){
+        $value1 = ($p_day/log(10))*((0.6*sqrt($i))*(0.7*$money)+0.4*$words);
+        $value2 = 12*30;
+        $value = $value1/$value2;
+        $value = round($value,2);
+        $sum += $value;
+        array_push($earn_day,$value);
+    }
+    array_push($earn_arr,$earn_day);
+    array_push($earn_arr,$sum);
+    return $earn_arr;
+}
