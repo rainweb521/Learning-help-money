@@ -10,7 +10,8 @@ namespace Admin\Controller;
 use Think\Controller;
 class PlanController extends CommonController{
     public function index(){
-
+        $plan_arr = D('Plan')->get_PlanList();
+        $this->assign('plan_list',$plan_arr);
         $this->display();
     }
 }

@@ -42,4 +42,8 @@ class LoginModel extends Model{
         $where['u_id'] = $u_id;
         $this->_db->where($where)->save($result);
     }
+    public function get_UserList(){
+        $result = $this->_db->where()->select();
+        return $result;
+    }
 }

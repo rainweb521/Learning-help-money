@@ -1,0 +1,1336 @@
+[ 2017-06-08T17:07:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021521s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\wap\Application\Home\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-08T17:07:35+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010941s ]
+
+[ 2017-06-08T17:07:37+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: state D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-06-08T17:07:47+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 20 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 21 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `user` WHERE ( username="root" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 103 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-08T17:07:47+08:00 ] 127.0.0.1 /index.php?m=&&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-06-08T17:07:53+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.1018s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2017-06-08T17:07:54+08:00 ] 127.0.0.1 /index.php?c=earning
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-06-08T17:07:55+08:00 ] 127.0.0.1 /index.php?c=setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-06-08T17:07:56+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0327s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-06-08T17:07:58+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 15 AND `up_id` = 1 AND `r_state` = 0  [ RunTime:0.2079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: r_id D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\22666f27e530919aacb271a8fb4198ea.php 第 63 行.
+NOTIC: [8] Undefined variable: up_id D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\22666f27e530919aacb271a8fb4198ea.php 第 64 行.
+NOTIC: [8] Undefined index: w_symbol D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\22666f27e530919aacb271a8fb4198ea.php 第 70 行.
+NOTIC: [8] Undefined index: w_translate D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\22666f27e530919aacb271a8fb4198ea.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2017-06-08T17:08:00+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0115s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-06-08T17:08:01+08:00 ] 127.0.0.1 /index.php?c=plan&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0829s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2017-06-08T17:08:04+08:00 ] 127.0.0.1 /index.php?c=plan&a=add&p_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-06-08T17:09:41+08:00 ] 127.0.0.1 /index.php?c=plan&a=add&p_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-06-08T17:09:50+08:00 ] 127.0.0.1 /index.php?c=plan&a=add&p_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T17:09:58+08:00 ] 127.0.0.1 /index.php?c=plan&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `plan` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0106s ]
+SQL: INSERT INTO `u_plan` (`p_id`,`p_money`,`p_day`,`p_num`,`u_id`,`p_name`,`p_photo`,`p_state`,`p_status`,`p_date`) VALUES ('1','10','10','20','1','英语四级','Public/images/tb06.png','1','0','2017-06-08') [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `user` SET `u_id`='1',`w_id`='1',`username`='root',`password`='root',`email`=NULL,`mobile`=NULL,`address`='地址',`photo`='Public/images/logo.png',`word`='单词字段',`early`='早起的字段',`balance`='90' WHERE `u_id` = 1 [ RunTime:0.0013s ]
+SQL: SELECT * FROM `plan` WHERE `p_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `trading_record` [ RunTime:0.0492s ]
+SQL: INSERT INTO `trading_record` (`u_id`,`t_date`,`t_content`) VALUES ('1','2017-06-08','英语四级计划投入10元') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `words4` [ RunTime:0.0672s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 85 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 116 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 154 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 186 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 270 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 344 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 387 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 442 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 456 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 501 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 562 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 592 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 667 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 670 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 739 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 790 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 829 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 871 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 923 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 954 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1023 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1058 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1093 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1118 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1177 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1206 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1256 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1290 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1372 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1406 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1437 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1505 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1535 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1587 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1641 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1681 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1702 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1747 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1804 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1849 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1890 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1956 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1976 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2022 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2047 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2118 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2139 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2185 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2233 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2301 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2341 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2394 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2442 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2459 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2520 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2546 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2597 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2658 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2678 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2741 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2783 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2806 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2890 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2920 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2971 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3014 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3068 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3095 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3152 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3191 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3239 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3252 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3296 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3359 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3408 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3446 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3489 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3560 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3601 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3620 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3655 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3726 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3777 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3783 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3831 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3900 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3917 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3968 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4034 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4058 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4118 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4139 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4211 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4245 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4315 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4329 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4378 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 98 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 167 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 179 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 240 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 289 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 314 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 396 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 405 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 460 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 498 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 546 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 583 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 644 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 688 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 739 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 778 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 806 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 878 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 930 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 972 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1024 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1038 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1093 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1124 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1172 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1205 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1273 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1306 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1373 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1397 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1447 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1476 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1546 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1559 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1611 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1663 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1724 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1754 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1870 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1872 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1928 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 1977 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2033 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2067 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2098 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2152 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2202 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2229 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2302 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2360 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2404 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2435 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2464 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2528 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2553 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2605 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2667 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2702 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2720 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2771 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2838 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2857 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2909 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 2944 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3014 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3038 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3104 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3156 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3166 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3220 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3262 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3325 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3376 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3402 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3455 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3485 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3526 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3606 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3643 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3692 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3697 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3783 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3807 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3840 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3906 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3957 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 3997 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4032 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4056 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4124 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4150 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4209 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4251 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4307 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4359 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 4381 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 35 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `words4` WHERE `w_id` = 110 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0088s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('anyway ','\'eniwei',' adv.无论如何 不管怎样','1','13','0','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('confirm ','kən\'fə:m',' vt.证实 肯定 批准 确定','1','13','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('retire ','ri\'taiə',' vi.退下 引退 撤退 退休 就寝 n.退休 退职','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('chest ','tʃest',' n.胸腔 胸膛 (大)箱子 金库 资金 一箱 密封室：衣橱','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('outline ','\'autlain',' n.轮廓 略图 大纲 概要 素描 vt.描画轮廓 描述要点','1','13','0','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('both ','bəuθ',' adj.两者的 conj.不但…而且… pron.两者(都)','1','13','0','6') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('undo ','\'ʌn\'du:',' vt.解开 打开 松开 取消','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('neck ','nek',' n.颈 脖子','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('again ','ə\'gein',' adv. 又一次 而且 又 再 另一方面','1','13','0','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('song ','sɔŋ',' n.歌唱 歌曲 歌词 (鸟等)鸣声','1','13','0','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('resign ','ri\'zain',' vt.放弃 辞职 使顺从 vi.辞职 顺从','1','13','0','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('vibrate ','\'vaibreit',' vt.使颤动 (使)振动 (使)摇摆vi.颤动 回响','1','13','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('black ','bl鎘',' adj.黑的 暗的 穿黑衣服的 脏的 邪恶的 阴沉的 机密的 n.黑色东西 黑色 黑人 (棋类)黑子 v.(使)变黑 抹黑','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('grace ','greis',' n.优美 文雅 雅致 魅力 恩惠 慈悲 vt.使荣耀 装饰','1','13','0','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('consideration ','kənsidə\'reiʃən',' n.考虑 思考 体贴 考虑因素 敬重 意见','1','13','0','5') [ RunTime:0.0006s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('telephone ','\'telifəun',' n.电话 vi.打电话','1','13','0','6') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('mute ','mju:t',' adj.缄默的 哑的 无声的 n.哑巴 默音字母 弱音器 vt.减音 减弱 vi.(鸟)排泄','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('instruction ','in\'strʌkʃən',' n.命令 指令 教学 教训 说明 须知','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('glorious ','\'glɔ:riəs',' adj.光荣的 壮丽的 辉煌的','1','13','0','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('firm ','fə:m',' n. 商行 商号 公司 vt. (使)变得坚实 定案 vi. 变硬 恢复 adj. 坚定的 坚固的 结实的 adv. 稳固地 坚定地','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('thirteen ','\'θə:ti:n',' num.十三 十三个','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('prominent ','\'prɔminənt',' adj.实起的 突出的 杰出的 显著的','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('intensity ','in\'tensiti',' n.强烈 剧烈 强度','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('typewriter ','\'taip.raitə',' n.打字机 打字员','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('concern ','kən\'sə:n',' n.关心(人或事) 忧虑 挂念 关系 公司 企业 vt.涉及 影响 关心','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('fruitful ','\'fru:tfəl',' adj.多产的 肥沃的 富有成效的','1','13','0','6') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('accommodate ','ə\'kɔmədeit',' vt. 容纳 供应 供给 提供方便 使一致 和解 顾及 vi. 使自己适应','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('video ','\'vidiəu',' adj.电视的 视频的 录像的n.电视 视频 录像','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('privilege ','\'privilidʒ',' n.特权 优惠 特别恩典 基本人权 荣幸 vt.给特权 免除','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('quicken ','\'kwikən',' vt. 使加快 使...有生气 鼓舞 使(曲线)更弯 使(斜坡)更陡 vi. 加快 变快 苏醒 (孕妇) 进入胎动期 变明亮 变活跃','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('opinion ','ə\'pinjən',' n.意见 看法 主张 判断','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('act ','鎘t',' vi. 行动 表演 表现 充当 见效 vt. 表演 扮演 n. 行为 行动 法案 （戏剧、歌剧等的）一幕','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('loyal ','\'lɔiəl',' adj.忠诚的 忠心的','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('far ','fɑ:',' adj.远的 adv.远 遥远 n.远处','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('whole ','həul',' adj.完整的 全部的 整体的 n.全部 完整 整体 adv.完全','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('often ','\'ɔ:fən',' adv.经常 常常','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('highly ','\'haili',' adv.高度地 很 非常','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('dense ','dens',' adj.密集的 浓厚的 愚钝的 不易看透的','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('cattle ','\'k鎡l',' n.牛 牲口 家畜 畜牲(复数)','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('normally ','\'nɔ:məli',' adv.通常 正常地','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('data ','\'deitə',' n.(datum的复数)数据 资料','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('lower ','\'ləuə,\'lauə',' adj. 较低的 低的 下级的 下层的 vt. 放下 降低 跌落 减弱 贬低 vi. 皱眉 降低 阴沉 变少 n. 皱眉 下级 阴沉的样子 前兆','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('minor ','\'mainə',' adj.较小的 较次要的 二流的 未成年的 n.未成年人 辅修科目 [音乐]小调 vi.辅修','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('German ','\'dʒə:mən',' adj.德国(人)的 德语的 日耳曼的 n.德国人 德语 日耳曼人','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('circle ','\'sə:kl',' n.圆 圆周 圈子 社交圈 循环 vt. & vi.包围 盘旋 环绕','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('reference ','\'refrəns',' n.参考 出处 提及 参照 推荐人 推荐函 vt.提供参考','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('spacecraft ','\'speiskrɑ:ft',' n.航天器 宇宙飞船','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('menu ','\'menju:',' n.菜单 饭菜 菜肴','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('rocket ','\'rɔkit',' n.火箭 火箭发动机 烟火 v.发射火箭 猛涨','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('eliminate ','i\'limineit',' vt.消灭 消除 排除 除去 剔除 忽略','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('scissors ','\'sizəz',' n.剪刀 剪子','1','13','0','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('pot ','pɔt',' n.锅 壶 罐 盆 一大笔(钱) vt.把...装罐 (台球)入袋','1','13','0','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('threat ','θret',' n.威胁 恐吓 凶兆 vt.威胁 恐吓','1','13','0','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('tiny ','\'taini',' adj.微小的 极小的','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('brave ','breiv',' adj.勇敢的 华丽的 缤纷的 vt.勇敢地面对(危险等) 抵抗 n.勇敢的人','1','13','0','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('model ','\'mɔdl',' n.模型 模式 模特儿 模范','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('ride ','raid',' n. 乘坐 乘车 骑马 搭便车 vi.骑 骑马 乘车 乘坐 经受住','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('prime ','praim',' adj. 首要的 最初的 最好的 典型的 n. 春 青春 壮年 全盛时期 n. [数]质数 vt. 事先指点 在(金属、木材等上)打底漆 vi. 变得首要','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('comfortable ','\'kʌmfətəbl',' adj.舒适的 安慰的 充裕的','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('export ','\'ekspɔ:t,eks\'pɔ:t',' vt.输出 出口 运走 n.出口 输出品 vi.传播 输出 adj.出口的','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('cash ','kæʃ',' n.现金 现款 vt.兑现 付现款 adj.现金的','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('fertilizer ','\'fə:tilaizə',' n.肥料','1','13','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('forever ','fə\'revə',' adv.永远 总是 老是 n.漫长时间','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('lack ','l鎘',' vi. & vi. &n.缺乏 不足 无','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('reading ','\'ri:diŋ',' n.读 阅读 读书 adj.阅读的','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('industrial ','in\'dʌstriəl',' adj.工业的 产业的 n.工业公司','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('apparent ','ə\'pærənt',' adj.表面上的 明显的','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('presence ','\'prezns',' n.出席 到场 在 在场者 所在地方 举止','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('remains ','ri\'meinz',' n.残余(余物 遗物 化石) 余额 废墟','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('split ','split',' vt.劈开 分离 分开 vi.被劈开 adj.分散的 n.劈开 裂片 裂口','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('display ','di\'splei',' vt.陈列 展览 显示 炫耀 vt.显示 表现 夸示','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('corporation ','.kɔ:pə\'reiʃən',' n.公司 法人 集团 企业 社团','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('between ','bi\'twi:n',' adv.在中间 prep.在...中间','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('keen ','ki:n',' adj.热心的 激烈的 敏锐的 强烈的 精明的 热忠于','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('meet ','mi:t',' vt.遇见 引见 经历 结识 对付 满足 支付 vi.相遇 集合 交锋 相交 n.集会 比赛 运动会 adj.适宜的 合适的','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('band ','b鎛d',' n.乐队 带 波段 箍 队 v.联合 结合','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('recorder ','ri\'kɔ:də',' n.记录者 录音机 (英国某些市镇的)首席法官 市法院法官 竖笛','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('owl ','aul',' n.猫头鹰 枭','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('winter ','\'wintə',' n.冬天 冬季 adj.冬天的 冬季生长的 vi.过冬 vt.对...进行过冬保护','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('grow ','grəu',' vt. & vi.生长 变得 变成 增长 种植 逐渐开始','1','13','0','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('hour ','auə',' n.小时 时间 时刻 钟点','1','13','0','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('assess ','ə\'ses',' vt.对(财产等)估价 估定 评定','1','13','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('near ','niə',' adv. 近 接近 几乎 亲近 adj. 近的 接近的 亲近的 勉强的 直接的 小气的 近似的 prep. 靠近vt. 靠拢 接近 vi. 接近','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('leather ','\'leðə',' n.皮革 皮革制品 adj.皮革制的 vt.用皮革覆盖 鞭打','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('seat ','si:t',' n.座 座部 位子 所在地 中心 vt.使坐下 可容纳 vi.坐','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('airplane ','\'eəplein',' n. 飞机=aeroplane(英）','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('bud ','bʌd',' n.芽 萌芽 蓓蕾 vi.发芽 萌芽 vt.使发芽','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('engineering ','.endʒi\'niəriŋ',' n.工程 工程学','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('hay ','hei',' n.干草','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('pity ','\'piti',' n.怜悯 遗憾 遗憾的事 vt.同情 怜悯','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('development ','di\'veləpmənt',' n.发展 开发 生长 显影 开发区','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('harm ','hɑ:m',' n.伤害 损害 vt.伤害 损害','1','13','0','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('audience ','\'ɔ:diəns',' n.听众 观众 读者 拥护者 倾听 正式会见','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('description ','di\'skripʃən',' n.描写 描述 说明书 作图 形容 种类','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('critic ','\'kritik',' n.批评家 评论家 爱挑剔的人','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sun ','sʌn',' n.太阳 日 阳光 中心人物 像太阳般的东西 v.晒太阳','1','13','0','6') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('envelope ','\'enviləup',' n.信封 封套 封皮 壳层','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('drink ','driŋk',' vt. & vi.饮 喝 喝酒 n.饮料','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('provided ','prə\'vaidid',' conj.假如 若是 以...为条件 adj.预备好的 由...供给的','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('vacuum ','\'vækjuəm',' n.真空 空间 真空吸尘器 adj.真空的 产生(利用)真空的 v.用吸尘器打扫','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('capital ','\'k鎝itl',' n.资本 资金 首都 大写字母 adj.大写的 资本的 首要的','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('separation ','.sepə\'reiʃən',' n.分离 分开 分居 缺口','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('smooth ','smu:?',' adj.平滑的 平静的 平稳的 流畅的 安祥的 圆滑的 搅拌均匀的 vt.使光滑 磨光 安慰 理顺(羽毛) vi.变光滑','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('we ','','pron.(主格)我们 abbr.=Wednesday','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('remember ','ri\'membə',' vt.记得 想起 记住','1','13','0','5') [ RunTime:0.0006s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('demonstrate ','\'demənstreit',' vt.说明 论证 证明 表露 示范 演示 vi.示威','1','13','0','6') [ RunTime:0.0003s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('eagle ','\'i:gl',' n.鹰 vt.(高尔夫)鹰击','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('mix ','miks',' vt.使混合 混淆 掺入 合成 交往 联系 n.混合(物) 融合 [计算机] 混合','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('exert ','ig\'zə:t',' vt.尽(力) 运用 施加(压力 影响等)','1','13','0','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sign ','sain',' n.符号 招牌 正负号 手势 迹象 签名 v.签 做手势 做标记','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('repeatedly ','ri\'pi:tidli',' adv.重复地 再三地 一再','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('shear ','ʃiə',' vt.剪 剪掉 剥夺 割 vi.剪 修剪 切割 剥夺 穿越 n.修剪 剪下的东西 羊的一岁','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('acute ','ə\'kju:t',' adj. 尖的 锐的 敏锐的 敏锐的 激烈的','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('tent ','tent',' n.帐篷 v.住帐篷 宿营','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('mind ','maind',' n.头脑 理智 记忆 思想 主意 心意 vt.留心 注意 介意 照顾 vi.留心 关心','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('advise ','əd\'vaiz',' vt . 劝告 建议 通知 警告 vi. 劝告 与...商量','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('many ','\'meni',' adj.许多的 pron.许多人或物 n.许多人 许多','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('lie ','lai',' vi.躺 平放 位于 说谎 欺骗 n.谎言','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sand ','s鎛d',' n.沙 沙子 沙滩 v.撒沙 以沙掩盖','1','13','0','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('exercise ','\'eksəsaiz',' n.锻炼 训练 练习 作业 运动 vi.练习 锻炼 vt.运用','1','13','0','10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('dirty ','\'də:ti',' adj.脏的 下流的 肮脏的 色情的 卑鄙的 adv.卑鄙地 vt.使...变脏 vi.弄脏','1','13','0','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sorry ','\'sɔri',' adj.对不起的 抱歉的 难过的 遗憾的 int.对不起','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('lay ','lei',' lie的过去式 vt. 置放 铺设 设置 击 产卵 使平静 打赌 压平 罚款 设计 vi. 生蛋 打赌 全力以赴 n. 隐蔽处 计划 价格 生蛋 叙事诗 诗歌 adj. 世俗的 外行的','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('surprising ','sə\'praiziŋ',' adj.惊人的 出人意外的 令人惊讶的 动词surprise的现在分词','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('dirty ','\'də:ti',' adj.脏的 下流的 肮脏的 色情的 卑鄙的 adv.卑鄙地 vt.使...变脏 vi.弄脏','1','13','0','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('comfortable ','\'kʌmfətəbl',' adj.舒适的 安慰的 充裕的','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('suspicion ','səs\'piʃən',' n.怀疑 疑心 猜疑','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('porridge ','\'pɔridʒ',' n.粥 麦片粥','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('oneself ','wʌn\'self',' pron.自己 亲自','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('weld ','weld',' vt.焊接 熔接 使结合 n.焊接 焊缝','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('AI ','ai',' abbr. 人工智能= ( Artificial Intelligence )','1','13','0','1') [ RunTime:0.0004s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('biology ','bai\'ɔlədʒi',' n.生物学 生态学','1','13','0','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('interpretation ','in.tə:pri\'teiʃən',' n.解释 口译 翻译 演出','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('branch ','brɑ:ntʃ',' n.分支 树枝 分部 分科 vt & vi.分支 分岔','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('image ','\'imidʒ',' n.像 形象 映象 图像 影像 肖像 想像 vt.想像 描绘 反映','1','13','0','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('accord ','ə\'kɔ:d',' vt. 使一致 调解 赠予 给予 n. 一致 调和 协议 自愿 vi. (与)一致','1','13','0','6') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('anchor ','\'æŋkə',' n.铁锚 vi.抛锚 停泊 用锚系住 担任（广播 电视新闻节目）的主持人','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('invitation ','.invi\'teiʃən',' n.邀请 招待 请柬 引诱 招致','1','13','0','8') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('grateful ','\'greitfəl',' adj.感激的 感谢的 令人愉快的','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('subsequent ','\'sʌbsikwənt',' adj.随后的 后来的','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('cushion ','\'kuʃən',' n.垫子 坐垫 橡皮软垫 缓冲 vt.加垫褥 放在垫子上 保护 减缓 为...装垫子','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('oriental ','.ɔ(:)ri\'entl',' adj.东方(人)的 东方国家的 贵重的','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('copper ','\'kɔpə',' n.铜 铜币 铜制器 有紫铜色翅膀的小蝴蝶 警官 vt.镀铜','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sense ','sens',' n.感官 感觉 见识 侦测 理智 意义 vt.感觉 了解 检测','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('transistor ','træn\'zistə',' n.晶体管 晶体管收音机','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('ear ','iə',' n.耳朵 听力 听觉 倾听 麦穗 vi.长出麦穗','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('weary ','','a.疲倦的 vt.使疲乏','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('quicken ','\'kwikən',' vt. 使加快 使...有生气 鼓舞 使(曲线)更弯 使(斜坡)更陡 vi. 加快 变快 苏醒 (孕妇) 进入胎动期 变明亮 变活跃','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('shift ','ʃift',' vt.替换 转移 变声 vi.改变 定责 更衣 n.转换 交换 变化 移动 接班者','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('match ','mætʃ',' n.比赛 竞赛 对手 火柴 般配的人 配偶 v.使...相配 与...竞争 相配','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('await ','ə\'weit',' vt.等候 期待 准备...以待 储存 vi.等待','1','13','0','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('bean ','bi:n',' n.豆 蚕豆','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('claw ','klɔ:',' n.爪 钳 脚爪 螯 爪状物 vt. & vi.抓 撕','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('toward ','tə\'wɔ:d',' prep.向 对于 接近 关于 将近 朝 adj.有希望的 有利的 逼近的','1','13','0','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('honour ','\'ɔnə',' n.光荣 尊敬 敬意 荣誉 荣幸 头衔 vt.尊敬 信守承诺 方形舞中鞠躬致敬','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('free ','fri:',' adj.自由的 空闲的 大方的 免费的 vt.释放 解放 adv.自由地 免费地','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('tour ','tuə',' n. & vi.旅行 游历 旅游 周游 观光 巡回','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('guide ','gaid',' n.导游者 领路者 指南 路标 vt.给...导游 领路 指导 vi.作导游','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('river ','\'rivə',' n.江 河 水道','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('pilot ','\'pailət',' n.领航员 飞行员 引航员 vt.领航 驾驶 向导 adj.引导的 示范的','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('annual ','\'ænjuəl',' adj.每年的 年度的 一年生的 n.年报 年刊 年鉴 一年生植物','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('circulate ','\'sə:kjuleit',' vt.使循环 使流通 vi.流通 循环 传播','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('a ','ei,ə',' art.一(个) 每一(个)','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('spell ','spel',' vt.拼写 缓慢地或吃力地读 轮班 休息 用符咒镇住(某人) vi.拼字 n.魅力 符咒 一段时间 轮班','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('temple ','\'templ',' n.圣堂 神殿 庙宇 寺院','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('knife ','naif',' n.小刀 刀 餐刀 v.用刀切割 如刀割般','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('vacant ','\'veikənt',' adj.空的 空虚的 木然的 未被占用的','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('sideways ','\'saidweiz',' adv.斜着 斜向一边地 向傍边 斜地里 向侧面地 adj.傍边的 向侧面的','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('transformation ','.trænsfə\'meiʃən',' n.变化 改造 转变 转型 转化','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('rage ','reidʒ',' n.(一阵)狂怒 盛怒 愤怒 情绪激动 风行一时 热量 vi.震怒 风行 席卷','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('exterior ','eks\'tiəriə',' adj.外部的 外在的 表面的 对外的 [计算机] 外部的 n.外部 表面 外型','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('subway ','\'sʌbwei',' n.地道 地下铁路','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('joint ','dʒɔint',' n.接头 接缝 关节 接合处 adj.联合的 共同的 合资的 连带的 v.连接 贴合','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('fly ','flai',' n.蝇 苍蝇 两翼昆虫 飞行 升高 vt. & vi.飞行 飞翔 逃走 飞逝 猛然移动','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('Canada ','\'kænədə',' n.加拿大','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('employer ','im\'plɔiə',' n.雇佣者 雇主','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('fatal ','\'feitl',' adj.致命的 毁灭性的 决定性的 命运的','1','13','0','7') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('subway ','\'sʌbwei',' n.地道 地下铁路','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('dread ','dred',' n.畏惧 恐怖 可怕的人 可怕的事 vt.惧怕 恐惧 adj.可怕的 可怖的','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('twice ','twais',' adv.两次 两倍','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('comprehension ','.kɔmpri\'henʃən',' n.理解 理解力 领悟','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('nail ','neil',' n.钉子 指甲 vt.钉 使牢固 抓捕 敲定','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('wine ','wain',' n.葡萄酒 果酒 酒 紫红色vi.喝酒 vt.请...喝酒','1','13','0','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('foot ','fut',' n.脚 最下部 英尺 山脚 最底部 一步长 音步 进程 vi.跳舞 步行 vt.表演舞步 付账 踩踏 结算','1','13','0','4') [ RunTime:0.0004s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('stock ','stɔk',' n. 原料 库存品 存货 股本 股份 储备 树干 血统 家畜 adj. 存货的 平凡的 惯用的 股票的 畜牧的 vt. 进货 采购 储存 供给 vi. 出新芽 进货','1','13','0','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('notebook ','\'nəutbuk',' n.笔记本 笔记本电脑 期票簿','1','13','0','6') [ RunTime:0.0002s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('library ','\'laibrəri',' n.图书馆 藏书','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('crowd ','kraud',' n.群 大众 一伙人 一堆 vi.拥挤 挤满 挤进 vt.挤满 将...塞进 催促','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('bubble ','\'bʌbl',' n.泡 泡沫 气泡 幻想 骗局 欢乐 vi.冒泡 沸腾 起泡 出现 洋溢 vt.使冒泡','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('uncover ','ʌn\'kʌvə',' vt.揭开(...的盖子) 揭露','1','13','0','10') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('dissolve ','di\'zɔlv',' vt.使溶解 解散 消除 解决(问题) 使沮丧 vi.消散 溶解 解散 液化 变得模糊 n.叠化画面','1','13','0','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('attempt ','ə\'tempt',' vt.尝试 试图 n.企图','1','13','0','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('start ','stɑ:t',' vi.跳起 出发 开始 起身 vt.开始 使震惊 n.起点 震动 领先优势 起推动作用的外力','1','13','0','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('plug ','plʌg',' n.塞子 插头 消防拴 电插头 vt.塞 射杀 宣传 vi.射杀 持续的工作','1','13','0','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('industrialize ','in\'dʌstriəlaiz',' vt.(使)工业化 =industrialise(英)','1','13','0','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('gaseous ','\'gæsiəs',' adj.气体的 气态的','1','13','0','6') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('statesman ','\'steitsmən',' n.政治家 国务活动家','1','13','0','7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('run ','rʌn',' vi. 跑 奔 行驶 流 竞赛 运转 遭遇 持续 熔化 褪色 蔓延 传播 vt. 跑 放牧 经营 走私 使运转 浇铸 使遭受 n. 奔跑 路程 趋向 adj. 熔化的 浇铸的 洄游的','1','13','0','8') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('include ','in\'klu:d',' vt.包括 包含','1','13','0','9') [ RunTime:0.0001s ]
+SQL: INSERT INTO `words_record` (`w_name`,`w_symbol`,`w_translate`,`u_id`,`up_id`,`r_state`,`r_day_num`) VALUES ('skill ','\'skil',' n.技能 技巧 熟练','1','13','0','10') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-08T17:09:58+08:00 ] 127.0.0.1 /index.php?m=&&c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-06-08T17:09:59+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2017-06-08T17:10:03+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=13&r_id=1091
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1091 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1091',`u_id`='1',`up_id`='13',`w_name`='dissolve',`w_symbol`='di\'zɔlv',`w_translate`=' vt.使溶解 解散 消除 解决(问题) 使沮丧 vi.消散 溶解 解散 液化 变得模糊 n.叠化画面',`r_day_num`='1',`r_state`='2' WHERE `r_id` = 1091 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2017-06-08T17:10:04+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=13&r_id=1091
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1091 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-06-08T17:10:07+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=13&r_id=1081
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1081 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1081',`u_id`='1',`up_id`='13',`w_name`='comprehension',`w_symbol`='.kɔmpri\'henʃən',`w_translate`=' n.理解 理解力 领悟',`r_day_num`='1',`r_state`='1' WHERE `r_id` = 1081 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2017-06-08T17:10:08+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=13&r_id=1071
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1071 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1071',`u_id`='1',`up_id`='13',`w_name`='exterior',`w_symbol`='eks\'tiəriə',`w_translate`=' adj.外部的 外在的 表面的 对外的 [计算机] 外部的 n.外部 表面 外型',`r_day_num`='1',`r_state`='2' WHERE `r_id` = 1071 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2017-06-08T17:10:11+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0105s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-06-08T20:16:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\wap\Application\Home\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-08T20:16:09+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2017-06-08T20:16:14+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: state D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-06-08T20:16:20+08:00 ] 127.0.0.1 /index.php?c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 20 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+NOTIC: [2] Missing argument 4 for request(), called in D:\phpStudy\WWW\wap\Application\Home\Controller\LoginController.class.php on line 21 and defined D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 45 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `user` WHERE ( username="root" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\wap\Application\Common\Common\function.php 第 103 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-08T20:16:20+08:00 ] 127.0.0.1 /index.php?m=&&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2017-06-08T20:16:23+08:00 ] 127.0.0.1 /index.php?c=index&a=progress
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-06-08T20:16:29+08:00 ] 127.0.0.1 /index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-06-08T20:16:34+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0192s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-06-08T20:16:35+08:00 ] 127.0.0.1 /index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-06-08T20:16:38+08:00 ] 127.0.0.1 /index.php?c=plan&a=note&tip=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `words_record` WHERE `r_state` = 2 AND `u_id` = 1  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-06-08T20:16:42+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0112s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-06-08T20:16:46+08:00 ] 127.0.0.1 /index.php?c=plan&a=learn&up_id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-06-08T20:16:49+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=13&r_id=1061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1061 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1061',`u_id`='1',`up_id`='13',`w_name`='annual',`w_symbol`='\'ænjuəl',`w_translate`=' adj.每年的 年度的 一年生的 n.年报 年刊 年鉴 一年生植物',`r_day_num`='1',`r_state`='1' WHERE `r_id` = 1061 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-06-08T20:16:49+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=13&r_id=1051
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1051 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1051',`u_id`='1',`up_id`='13',`w_name`='await',`w_symbol`='ə\'weit',`w_translate`=' vt.等候 期待 准备...以待 储存 vi.等待',`r_day_num`='1',`r_state`='1' WHERE `r_id` = 1051 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-06-08T20:16:50+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=13&r_id=1041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1041 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1041',`u_id`='1',`up_id`='13',`w_name`='cushion',`w_symbol`='\'kuʃən',`w_translate`=' n.垫子 坐垫 橡皮软垫 缓冲 vt.加垫褥 放在垫子上 保护 减缓 为...装垫子',`r_day_num`='1',`r_state`='2' WHERE `r_id` = 1041 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2017-06-08T20:16:51+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax&up_id=13&r_id=1041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1041 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `u_plan` WHERE `up_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `words_record` WHERE `r_day_num` = 1 AND `up_id` = 13 AND `r_state` = 0  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-06-08T20:16:51+08:00 ] 127.0.0.1 /index.php?c=plan&a=ajax2&up_id=13&r_id=1031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `words_record` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `words_record` WHERE `r_id` = 1031 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `words_record` SET `r_id`='1031',`u_id`='1',`up_id`='13',`w_name`='AI',`w_symbol`='ai',`w_translate`=' abbr. 人工智能= ( Artificial Intelligence )',`r_day_num`='1',`r_state`='2' WHERE `r_id` = 1031 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-06-08T20:16:52+08:00 ] 127.0.0.1 /index.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [2048] Declaration of Home\Controller\PlanController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Home\Controller\PlanController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `u_plan` [ RunTime:0.0351s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\U_PlanModel.class.php on line 18 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `u_plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: p_name D:\phpStudy\WWW\wap\Application\Runtime\Cache\Home\ca44bde0ac502aa9de353798181f7169.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-06-08T20:18:04+08:00 ] 127.0.0.1 /index.php?c=earning
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `user` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2017-06-08T20:18:07+08:00 ] 127.0.0.1 /index.php?c=setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-06-08T20:18:11+08:00 ] 127.0.0.1 /index.php?c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+

@@ -18,6 +18,10 @@ class PlanModel extends Model{
         $plan_arr = $this->_db->where()->select();
         return $plan_arr;
     }
+    public function get_PlanList(){
+        $plan_arr = $this->_db->where()->select();
+        return $plan_arr;
+    }
     public function get_Info($p_id){
         $where['p_id'] = $p_id;
 //        $result = $this->_db->where('id=',$id)->find();

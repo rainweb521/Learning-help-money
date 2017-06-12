@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>学钱帮后台</title>
-  <meta name="description" content="这是一个 table 页面">
-  <meta name="keywords" content="table">
+  <title>学钱帮</title>
+  <meta name="description" content="这是一个 user 页面">
+  <meta name="keywords" content="user">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -17,7 +17,7 @@
 </head>
 <body>
 <!--[if lte IE 9]>
-<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，学钱帮 暂不支持。 请 <a href="" target="_blank">升级浏览器</a>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器， 暂不支持。 请 <a href="" target="_blank">升级浏览器</a>
   以获得更好的体验！</p>
 <![endif]-->
 
@@ -75,104 +75,108 @@
   <div class="admin-content">
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">表格</strong> / <small>Table</small></div>
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">用户管理</strong> / <small>个人资料</small></div>
       </div>
 
-      <hr>
+      <hr/>
 
       <div class="am-g">
-        <div class="am-u-sm-12 am-u-md-6">
-          <div class="am-btn-toolbar">
-            <div class="am-btn-group am-btn-group-xs">
-              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
-              <button type="button" class="am-btn am-btn-default"><span class="am-icon-archive"></span> 审核</button>
-            </div>
-          </div>
-        </div>
-        <div class="am-u-sm-12 am-u-md-3">
-          <div class="am-form-group">
-            <select data-am-selected="{btnSize: 'sm'}">
-              <option value="option1">所有类别</option>
-              <option value="option2">IT业界</option>
-              <option value="option3">数码产品</option>
-              <option value="option3">笔记本电脑</option>
-              <option value="option3">平板电脑</option>
-              <option value="option3">只能手机</option>
-              <option value="option3">超极本</option>
-            </select>
-          </div>
-        </div>
-        <div class="am-u-sm-12 am-u-md-3">
-          <div class="am-input-group am-input-group-sm">
-            <input type="text" class="am-form-field">
-          <span class="am-input-group-btn">
-            <button class="am-btn am-btn-default" type="button">搜索</button>
-          </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="am-g">
-        <div class="am-u-sm-12">
-          <form class="am-form">
-            <table class="am-table am-table-striped am-table-hover table-main">
-              <thead>
-              <tr>
-                <th class="table-check"><input type="checkbox" /></th>
-                <th class="table-id">ID</th>
-                <th class="table-title">名称</th>
-                <th class="table-type">类别</th>
-                <th class="table-author am-hide-sm-only">利率</th>
-                <th class="table-author am-hide-sm-only">已选人数</th>
-                <th class="table-author am-hide-sm-only">已投金额</th>
-                <th class="table-date am-hide-sm-only">创建日期</th>
-                <th class="table-set">操作</th>
-              </tr>
-              </thead>
-              <tbody>
-              <?php if(is_array($plan_list)): $i = 0; $__LIST__ = $plan_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$plan): $mod = ($i % 2 );++$i;?><tr>
-                <td><input type="checkbox" /></td>
-                <td><?php echo ($plan["p_id"]); ?></td>
-                <td><?php echo ($plan["p_name"]); ?></td>
-                <td>
-                  <?php if($plan["p_state"] == 1): ?>个人计划<?php endif; ?>
-                  <?php if($plan["p_state"] == 2): ?>团队计划<?php endif; ?>
-                </td>
-                <td class="am-hide-sm-only"><?php echo ($plan["p_lilv"]); ?></td>
-                <td class="am-hide-sm-only">1</td>
-                <td class="am-hide-sm-only">1</td>
-                <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
-                <td>
-                  <div class="am-btn-toolbar">
-                    <div class="am-btn-group am-btn-group-xs">
-                      <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
-                      <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</button>
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-bd">
+              <div class="am-g">
+                <div class="am-u-md-4">
+                  <img class="am-img-circle am-img-thumbnail" src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/200/h/200/q/80" alt=""/>
+                </div>
+                <div class="am-u-md-8">
+                  <p>你可以使用<a href="#">gravatar.com</a>提供的头像或者使用本地上传头像。 </p>
+                  <form class="am-form">
+                    <div class="am-form-group">
+                      <input type="file" id="user-pic">
+                      <p class="am-form-help">请选择要上传的文件...</p>
+                      <button type="button" class="am-btn am-btn-primary am-btn-xs">保存</button>
                     </div>
-                  </div>
-                </td>
-              </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-
-              </tbody>
-            </table>
-            <div class="am-cf">
-              共 15 条记录
-              <div class="am-fr">
-                <ul class="am-pagination">
-                  <li class="am-disabled"><a href="#">«</a></li>
-                  <li class="am-active"><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">»</a></li>
-                </ul>
+                  </form>
+                </div>
               </div>
             </div>
-            <hr />
-            <p>注：.....</p>
-          </form>
+          </div>
+
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-bd">
+              <div class="user-info">
+                <p>等级信息</p>
+                <div class="am-progress am-progress-sm">
+                  <div class="am-progress-bar" style="width: 60%"></div>
+                </div>
+                <p class="user-info-order">当前等级：<strong>LV8</strong> 活跃天数：<strong>587</strong> 距离下一级别：<strong>160</strong></p>
+              </div>
+              <div class="user-info">
+                <p>信用信息</p>
+                <div class="am-progress am-progress-sm">
+                  <div class="am-progress-bar am-progress-bar-success" style="width: 80%"></div>
+                </div>
+                <p class="user-info-order">信用等级：正常当前 信用积分：<strong>80</strong></p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+          <form class="am-form am-form-horizontal">
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">姓名 / Name</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-name" placeholder="姓名 / Name">
+                <small>输入你的名字，让我们记住你。</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-email" class="am-u-sm-3 am-form-label">电子邮件 / Email</label>
+              <div class="am-u-sm-9">
+                <input type="email" id="user-email" placeholder="输入你的电子邮件 / Email">
+                <small>邮箱你懂得...</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-phone" class="am-u-sm-3 am-form-label">电话 / Telephone</label>
+              <div class="am-u-sm-9">
+                <input type="tel" id="user-phone" placeholder="输入你的电话号码 / Telephone">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-QQ" class="am-u-sm-3 am-form-label">QQ</label>
+              <div class="am-u-sm-9">
+                <input type="number" pattern="[0-9]*" id="user-QQ" placeholder="输入你的QQ号码">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-weibo" class="am-u-sm-3 am-form-label">微博 / Twitter</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-weibo" placeholder="输入你的微博 / Twitter">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-intro" class="am-u-sm-3 am-form-label">简介 / Intro</label>
+              <div class="am-u-sm-9">
+                <textarea class="" rows="5" id="user-intro" placeholder="输入个人简介"></textarea>
+                <small>250字以内写出你的一生...</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <div class="am-u-sm-9 am-u-sm-push-3">
+                <button type="button" class="am-btn am-btn-primary">保存修改</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
@@ -183,6 +187,7 @@
 
   </div>
   <!-- content end -->
+
 </div>
 
 <a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
@@ -193,7 +198,7 @@
 </footer>
 
 <!--[if lt IE 9]>
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="Public/admin/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
@@ -202,6 +207,7 @@
 <script src="Public/admin/js/jquery.min.js"></script>
 <!--<![endif]-->
 <script src="Public/admin/js/amazeui.min.js"></script>
+
 <script src="Public/admin/js/app.js"></script>
 </body>
 </html>
