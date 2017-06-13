@@ -14,7 +14,7 @@ class PlanController extends CommonController{
 //        var_dump($earn_arr);
 //        exit();
         $this->get_session();
-        $plan_arr = D('U_Plan')->get_AllInfo();
+        $plan_arr = D('U_Plan')->get_AllInfo($_SESSION['u_id']);
         $this->assign('plan_arr',$plan_arr);
         $this->display();
     }

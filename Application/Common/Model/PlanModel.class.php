@@ -15,11 +15,13 @@ class PlanModel extends Model{
         $this->_db = M('plan');
     }
     public function get_AllInfo(){
-        $plan_arr = $this->_db->where()->select();
+        $where['p_status'] = 1;
+        $plan_arr = $this->_db->where($where)->select();
         return $plan_arr;
     }
     public function get_PlanList(){
-        $plan_arr = $this->_db->where()->select();
+        $where['p_status'] = 1;
+        $plan_arr = $this->_db->where($where)->select();
         return $plan_arr;
     }
     public function get_Info($p_id){

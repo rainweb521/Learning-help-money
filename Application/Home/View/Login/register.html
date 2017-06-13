@@ -23,7 +23,7 @@
             <div class="message">
                 <input type="hidden" name="flag" value="1">
                 <input type="tel" name="mobile" placeholder="输入手机号" pattern="[0-9]{11}" required/>
-                <input type="password" name="email" placeholder="请输入邮箱"  required/>
+                <input type="email" name="email" placeholder="请输入邮箱"  required/>
                 <input type="password" name="password" placeholder="请输入6-25位密码" pattern="[0-9A-Za-z]{6,25}" required/>
                 <input type="password" name="c_password" placeholder="请再次输入密码" pattern="[0-9A-Za-z]{6,25}" required/>
                 <!--  <select name="job">

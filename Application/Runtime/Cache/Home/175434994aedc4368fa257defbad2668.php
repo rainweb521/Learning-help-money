@@ -20,7 +20,7 @@
 </header>
 <br>
 <div style="width: 100%;height: 150px;background-color: #ff9966;color: white">
-<div style="font-size: 13px;">当前帐户：139****2252</div>
+<div style="font-size: 13px;">当前帐户：<?php echo ($user); ?></div>
 <div >
 	<div align="center" style="text-align: center; padding-top: 10px;">
 				<!-- <h5 style="font-size: 15px;">总资产</h5> -->

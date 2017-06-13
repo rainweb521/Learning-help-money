@@ -143,3 +143,50 @@ function get_Now_Day($date){
     $value = round(($date1-$date2)/3600/24) + 1;
     return $value;
 }
+function upload_photo($file){
+    //全局变量
+    $arrType=array('image/jpg','image/gif','image/png','image/bmp','image/jpeg');
+    $max_size='500000';      // 最大文件限制（单位：byte）
+    $upfile='./Public/images'; //图片目录路径
+    if($_SERVER['REQUEST_METHOD']=='POST') { //判断提交方式是否为POST
+        if (!is_uploaded_file($file['tmp_name'])) { //判断上传文件是否存在
+//            return '文件不存在！';
+            return '';
+        }
+//        if ($file['size'] > $max_size) {  //判断文件大小是否大于500000字节
+//            return '上传文件太大！';
+//        }
+        if (!in_array($file['type'], $arrType)) {  //判断图片文件的格式
+//            return '上传文件格式不对！';
+            return '';
+        }
+        if (!file_exists($upfile)) {  // 判断存放文件目录是否存在
+            mkdir($upfile, 0777, true);
+        }
+        $imageSize = getimagesize($file['tmp_name']);
+        $img = $imageSize[0] . '*' . $imageSize[1];
+        //采用时间戳命名
+        $fname = rand() . time();
+        $ftype = explode('.', $fname);
+        $fileinfo = pathinfo($file['name']);
+//                var_dump($fileinfo['extension']);
+//                exit();
+        $picName = $upfile . "/rain" . $fname . '.' . $fileinfo['extension'];
+        if (file_exists($picName)) {
+//            return '同文件名已存在！';
+            return '';
+        }
+        if (!move_uploaded_file($file['tmp_name'], $picName)) {
+//            return '移动文件出错！';
+            return '';
+        } else {
+//                echo $picName."<br>";
+//                echo "<font color='#FF0000'>图片文件上传成功！</font><br/>";
+//                echo "<font color='#0000FF'>图片大小：$img</font><br/>";
+//                echo "图片预览：<br><div style='border:#F00 1px solid; width:200px;height:200px'>
+//                    <img src=\"".$picName."\" width=200px height=200px>".$fname."</div>";
+            return $picName;
+
+        }
+    }
+}

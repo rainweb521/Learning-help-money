@@ -23,7 +23,6 @@ class Early_recordModel extends Model{
         $where['up_id'] = $up_id;
         $where['u_id'] = $u_id;
         $early_arr = $this->_db->where($where)->select();
-//        $early_arr = array_reverse($early_arr);
         $early = array_pop($early_arr);
         $date = date("Y-m-d");
         if(empty($early)){
@@ -32,13 +31,9 @@ class Early_recordModel extends Model{
         }else{
             if ($date==$early['e_date']){
 //                $this->insert($up_id,$u_id,$date,$early['e_day']);
-                return $early['e_day'] ;
+                return $early['e_day'];
             }else{
-                $Date_1 = $date;
-                $Date_2 = $early['e_date'];
-                $d1 = strtotime($Date_1);
-                $d2 = strtotime($Date_2);
-                $Days = round(($d2-$d1)/3600/24);
+                $Days = get_Now_Day($early['e_date']) - 1;
                 if($Days!=1){
                     $this->insert($up_id,$u_id,$date,0);
                     return 1;

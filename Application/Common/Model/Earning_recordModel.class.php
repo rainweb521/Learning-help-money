@@ -36,7 +36,7 @@ class Earning_recordModel extends Model{
         if ($earn==''){
             return 0;
         }
-        return $earn['e_balance'];
+        return $earn['e_money'];
     }
 
     /**

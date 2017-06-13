@@ -20,15 +20,9 @@
 		</header>
 		<div class="ui-content" data-role="content">
 			<dl>
-				<dd>
-					<a href="" data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon">关于用户使用说明<small></small></a>
-				</dd>
-				<dd>
-					<a href=""  data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon">关于学钱帮介绍<small></small></a>
-				</dd>
-				<dd>
-					<a href="" data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon">用户须知</a>
-				</dd>
+				<?php if(is_array($message_list)): $i = 0; $__LIST__ = $message_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$message): $mod = ($i % 2 );++$i;?><dd>
+					<a href="index.php?c=setting&a=show&m_id=<?php echo ($message["m_id"]); ?>" data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon"><?php echo ($message["m_title"]); ?>(<?php echo ($message["m_date"]); ?>)<small></small></a>
+				</dd><?php endforeach; endif; else: echo "" ;endif; ?>
 			</dl>
 
 		</div>

@@ -14,8 +14,10 @@ class U_PlanModel extends Model{
     public function __construct() {
         $this->_db = M('u_plan');
     }
-    public function get_AllInfo(){
-        $plan_arr = $this->_db->where()->select();
+    public function get_AllInfo($u_id){
+        $where['u_id'] = $u_id;
+        $where['p_status'] = 0;
+        $plan_arr = $this->_db->where($where)->select();
         return $plan_arr;
     }
     public function set_Info($arr){

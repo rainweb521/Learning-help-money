@@ -17,20 +17,42 @@ class LoginController extends CommonController {
         if($flag==0){
             $this->display();
         }else{
-            $username = request('post','char','username');
-            $password = request('post','char','password');
+            $username = request('post','str','username','');
+            $password = request('post','str','password','');
+//            echo $username;
             $result = D('Login')->getAdminByUsername($username);
-            if(!$result){
-                $this->assign('state','用户名不存在');
-                $this->display();
-            }else if($result['password']!=$password){
-                $this->assign('state','密码错误');
-                $this->display();
+            $result2 = D('Login')->getAdminByMobile($username);
+//            var_dump($result2);
+//            if(empty($result)){
+//                echo "345345";
+//            }
+//            exit();
+            if(!empty($result)){//如果有内容则不运行，如果找到用户名
+                if($result['password']!=$password){
+                    $this->assign('state','密码错误1');
+
+                    $this->display();
+                } else{
+                    session('u_id',$result['u_id']);
+                    start_session(6000);
+                    $this->redirect('/index.php?c=index');
+                }
+            }else if(!empty($result2)){
+//                var_dump($result2);
+//                exit();
+                if($result2['password']!=$password){
+                    $this->assign('state','密码错误2');
+                    $this->display();
+                } else{
+                    session('u_id',$result2['u_id']);
+                    start_session(6000);
+                    $this->redirect('/index.php?c=index');
+                }
             }else{
-                session('u_id',$result['u_id']);
-                start_session(6000);
-                $this->redirect('/index.php?c=index');
+                $this->assign('state','用户名或手机号不存在');
+                $this->display();
             }
+
 //            var_dump($result);
 //            exit();
 //            if($username=='root'){
@@ -40,14 +62,13 @@ class LoginController extends CommonController {
 //            }
 
         }
-        exit();
     }
     public function register(){
         $flag = request('post','int','flag',0);
         if($flag==0){
             $this->display();
         }else{
-            $username = request('post','char','mobile','');
+            $mobile = request('post','char','mobile','');
             $email = request('post','char','email','');
             $password = request('post','char','password','');
             $c_password = request('post','char','c_password','');
@@ -55,7 +76,7 @@ class LoginController extends CommonController {
                 $this->assign('state','两次密码不一致');
                 $this->display();
             }
-            $insert_arr['username'] = $username;
+            $insert_arr['mobile'] = $mobile;
             $insert_arr['email'] = $email;
             $insert_arr['password'] = $password;
             D('Login')->set_Info($insert_arr);
