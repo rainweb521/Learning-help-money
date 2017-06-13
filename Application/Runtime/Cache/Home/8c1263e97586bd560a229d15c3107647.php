@@ -24,40 +24,43 @@
 		<!--<form method="get" action="index.php?c=plan&a=add2"><input type="submit" value="123"></form>-->
 		<script>
             function mysubmit(){
-                var p_money = document.getElementById('p_money').value;
-                if(p_money==''){
-                    alert('投资金额不能为空');
-                    return 0;
-				}
-                var p_day = document.getElementById('p_day').value;
-                if(p_day==''){
-                    alert('计划期限不能为空');
+                var p_money = document.getElementById('p_money');
+                var p_day = document.getElementById('p_day');
+                var p_num = document.getElementById('p_num');
+                if(p_money.value==''){
+                    document.getElementById('state').innerHTML = '(投资金额不能为空)';
+                    p_money.focus();
                     return 0;
                 }
-                var p_num = document.getElementById('p_num').value;
-                if(p_num==''){
-                    alert('每日单词数不能为空');
+                if(p_day.value==''){
+                    document.getElementById('state').innerHTML = '(计划天数不能为空)';
+                    p_day.focus();
+                    return 0;
+                }
+                if(p_num.value==''){
+                    document.getElementById('state').innerHTML = '(每日单词数不能为空)';
+                    p_num.focus();
                     return 0;
                 }
                 var balance = document.getElementById('balance').innerHTML;
-                p_money = parseInt(p_money);
-                p_day = parseInt(p_day);
-                p_num = parseInt(p_num);
+                p_money = parseInt(p_money.value);
+                p_day = parseInt(p_day.value);
+                p_num = parseInt(p_num.value);
                 balance = parseInt(balance);
                 if (p_money>200||p_money<10){
-                    alert('投资金额填写无效');
+                    document.getElementById('state').innerHTML = '(投资金额填写无效)';
                     return 0;
 				}
                 if (p_money>balance){
-                    alert('投资金额大于可用余额');
+                    document.getElementById('state').innerHTML = '(投资金额大于可用余额)';
                     return 0;
                 }
                 if (p_day>30||p_day<10){
-                    alert('计划期限填写无效');
+                    document.getElementById('state').innerHTML = '(计划天数填写无效)';
                     return 0;
                 }
                 if (p_num>200||p_num<10){
-                    alert('每日单词数填写无效');
+                    document.getElementById('state').innerHTML = '(每日单词数填写无效)';
                     return 0;
                 }
                 if ((p_day*p_num)>4451){
@@ -69,22 +72,26 @@
                 document.getElementById("myForm").submit();
             }
             function get_earning(){
-                var p_money = document.getElementById('p_money').value;
-                var p_day = document.getElementById('p_day').value;
-                var p_num = document.getElementById('p_num').value;
-                if(p_money==''){
-                    alert('投资金额不能为空');
+                var p_money = document.getElementById('p_money');
+                var p_day = document.getElementById('p_day');
+                var p_num = document.getElementById('p_num');
+                if(p_money.value==''){
+                    document.getElementById('state').innerHTML = '(投资金额不能为空)';
+                    p_money.focus();
                     return 0;
                 }
-                if(p_day==''){
-                    alert('计划期限不能为空');
+                if(p_day.value==''){
+                    document.getElementById('state').innerHTML = '(计划天数不能为空)';
+                    p_day.focus();
                     return 0;
                 }
-                if(p_num==''){
-                    alert('每日单词数不能为空');
+                if(p_num.value==''){
+                    document.getElementById('state').innerHTML = '(每日单词数不能为空)';
+                    p_num.focus();
                     return 0;
                 }
-                $.get("index.php?c=plan&a=ajax_earning&money="+p_money+"&day="+p_day+"&words="+p_num, function(data){
+                document.getElementById('state').innerHTML = '';
+                $.get("index.php?c=plan&a=ajax_earning&money="+p_money.value+"&day="+p_day.value+"&words="+p_num.value, function(data){
                     var res = eval("(" + data + ")");//转为Object对象
                     var sum = res.sum;
                     var max = res.max;
@@ -98,13 +105,13 @@
 				<input type="hidden" name="flag" value="1">
 				<input type="hidden" name="p_id" value="<?php echo ($p_id); ?>">
 			<section>
-				<h3>计划收益</h3>
+				<h3>计划收益<span id="state" style="color: #FF5722;"></span></h3>
 				<ul>
 					<li style="height: 22px;">
 						<p style="font-size: 13px;height: 20px;"> 投资金额<input type="text" id="p_money" name="p_money" value="" data-role="none" placeholder="10元起"></p>
 					</li> 
 					<li style="height: 22px;">
-						<p style="font-size: 13px;height: 20px;"> 计划期限<input type="text" id="p_day" name="p_day" value="" data-role="none" placeholder="10天起"></p>
+						<p style="font-size: 13px;height: 20px;"> 计划天数<input type="text" id="p_day" name="p_day" value="" data-role="none" placeholder="10天起"></p>
 					</li>
 					<li style="height: 25px;">
 						<p style="font-size: 13px;"> 每日单词数<input type="text" id="p_num" name="p_num" value="" data-role="none" placeholder="20个起"></p>

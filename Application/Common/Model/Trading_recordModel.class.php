@@ -15,8 +15,13 @@ class Trading_recordModel extends Model{
     }
     public function add_Record($u_id,$date,$content){
         $result['u_id'] = $u_id;
-        $result['t_date'] = $date;
-        $result['t_content'] = $content;
+        $result['e_date'] = $date;
+        $result['r_content'] = $content;
         $this->_db->add($result);
+    }
+    public function get_RecordList($u_id){
+        $where['u_id'] = $u_id;
+        $result = $this->_db->where($where)->select();
+        return $result;
     }
 }

@@ -832,3 +832,379 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
 
+[ 2017-06-12T15:57:13+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2017-06-12T15:57:18+08:00 ] 127.0.0.1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Admin\Controller\UserController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0366s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\LoginModel.class.php on line 46 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-06-12T15:57:19+08:00 ] 127.0.0.1 /admin.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0458s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\PlanModel.class.php on line 22 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-06-12T15:57:31+08:00 ] 127.0.0.1 /admin.php?c=earning
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2017-06-12T15:57:35+08:00 ] 127.0.0.1 /admin.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0128s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\PlanModel.class.php on line 22 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2017-06-12T15:57:38+08:00 ] 127.0.0.1 /admin.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-06-12T15:57:41+08:00 ] 127.0.0.1 /admin.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0113s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\PlanModel.class.php on line 22 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `plan`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-06-12T15:58:48+08:00 ] 127.0.0.1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Admin\Controller\UserController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0135s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\LoginModel.class.php on line 46 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2017-06-12T15:58:49+08:00 ] 127.0.0.1 /admin.php?c=user&a=show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Admin\Controller\UserController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-06-12T15:59:04+08:00 ] 127.0.0.1 /admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Admin\Controller\UserController::show() should be compatible with that of Think\Controller::show() D:\phpStudy\WWW\wap\Application\Admin\Controller\UserController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\LoginModel.class.php on line 46 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 130 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 131 行.
+NOTIC: [8] Undefined index: money D:\phpStudy\WWW\wap\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-06-12T15:59:30+08:00 ] 127.0.0.1 /admin.php?c=earning
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2017-06-12T15:59:32+08:00 ] 127.0.0.1 /admin.php?c=plan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0120s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\phpStudy\WWW\wap\Application\Common\Model\PlanModel.class.php on line 22 and defined D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\wap\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `plan`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+

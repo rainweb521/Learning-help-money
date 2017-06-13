@@ -131,3 +131,15 @@ function get_Earning($words,$money,$day,$p_day=5.5){
     array_push($earn_arr,$sum);
     return $earn_arr;
 }
+function get_Num_Day($date1,$date2){
+    $date1=strtotime($date1);
+    $date2=strtotime($date2);
+    $value = round(($date1-$date2)/3600/24) + 1;
+    return $value;
+}
+function get_Now_Day($date){
+    $date1=strtotime(date("Y-m-d"));
+    $date2=strtotime($date);
+    $value = round(($date1-$date2)/3600/24) + 1;
+    return $value;
+}

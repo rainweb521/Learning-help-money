@@ -24,10 +24,10 @@
 <div >
 	<div align="center" style="text-align: center; padding-top: 10px;">
 				<!-- <h5 style="font-size: 15px;">总资产</h5> -->
-				<h2 style="font-size: 40px;">￥122579.17</h2>
-				<h5 style="font-size: 13px;">昨日收益(元)</h5>
+				<h2 style="font-size: 40px;">￥<?php echo ($earn); ?></h2>
+				<h5 style="font-size: 13px;">今日收益(元)</h5>
 				<br>
-				<h5 style="font-size: 15px;">总资产&nbsp;20&nbsp;元</h5>
+				<h5 style="font-size: 15px;">总资产&nbsp;<?php echo ($balance); ?>&nbsp;元</h5>
 			<!-- 	<div   style="font-size: 15px;padding-left: 90px;" >
 					<li style="float: left;">昨日收益 <br>25.15元 </li>
 
@@ -44,26 +44,34 @@
             border-left-color: white;border-top-color: white;
             border-bottom-color: white;
             border-style: solid;*/
-            ">累计收益<br>5元</div>
+            ">累计收益<br><?php echo ($all_earning); ?>元</div>
             <div style="text-align: center;height: 60px; width: 47%; float: right;padding-right: 10px;margin-left: 10px;
             border-left-color: #f2f2f2;border-left-width: 5px;
             border-right-width: 0px;border-top-width: 0px;
             border-bottom-width: 0px;
-            border-style: solid;">累计亏损<br>1元</div>
+            border-style: solid;">累计亏损<br><?php echo ($all_loss); ?>元</div>
         </div>
     </div>
 </section>
     <section class="mt-1">
         <div class="ps-lt">
-            <a href="index.php?c=earning&a=record&tip=0">
+            <a href="index.php?c=earning&a=count">
             <div class="lt-dsb cl-bb">
-                <p>收益记录</p>
+                <p>收益计算</p>
                 <i class="arr-right"></i>
             </div>
             </a>
         </div>
     </section>
 <section class="mt-1">
+    <div class="ps-lt">
+        <a href="index.php?c=earning&a=record&tip=0">
+            <div class="lt-dsb">
+                <p>收益记录</p>
+                <i class="arr-right"></i>
+            </div>
+        </a>
+    </div>
     <div class="ps-lt">
         <a href="index.php?c=earning&a=record&tip=1">
         <div class="lt-dsb cl-bb">

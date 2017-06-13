@@ -22,9 +22,9 @@
 	<div class="ui-content" data-role="content">
 		<section>
 			<ul>
-				<?php if(is_array($words)): $i = 0; $__LIST__ = $words;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$word): $mod = ($i % 2 );++$i;?><li>
-						<small><?php echo ($word["w_name"]); ?></small>
-						<span><?php echo ($word["w_translate"]); ?></span>
+				<?php if(is_array($record_list)): $i = 0; $__LIST__ = $record_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$record): $mod = ($i % 2 );++$i;?><li>
+						<small><?php echo ($record["e_date"]); ?></small>
+						<span><?php echo ($record["r_content"]); ?></span>
 					</li><?php endforeach; endif; else: echo "" ;endif; ?>
 			</ul>
 		</section>

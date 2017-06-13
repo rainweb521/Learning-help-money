@@ -133,6 +133,19 @@ class PlanController extends CommonController{
             $num = ($num / $u_plan['p_num']) * 100;
             //如果今日计划已完成，则可以分配收益
             if ($num==100){
+                //计算今日应得收益
+                //判断今日的收益记录是否已经写入，如果返回的值不是0，则说明已经有了记录
+                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id']);
+                if ($state_value==0){
+                    $earn = get_Earning($u_plan['p_num'],$u_plan['p_money'],$u_plan['p_day']);
+                    $earn = $earn[0][$value-1];
+                    $u_plan['p_balance'] = $u_plan['p_balance'] + $earn;
+                    //将收益的记录放到收益记录表中，再修改u_plan中的balance
+                    //防止重复计算收益
+                    D('U_Plan')->update_Info($up_id,$u_plan);
+                    D('Earning_record')->add_Info($u_plan,$earn);
+                }
+
                 $ret = array_pop($result);
                 $ret['w_name'] = '恭喜你，今日学习进度已完成！';
                 $this->assign('num',$num);
@@ -171,6 +184,21 @@ class PlanController extends CommonController{
             $words = array_pop($result);
             if($num==100){
                 $words['w_name'] = '恭喜你，今日学习进度已完成！';
+
+                //计算今日应得收益
+                //判断今日的收益记录是否已经写入，如果返回的值不是0，则说明已经有了记录
+                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id']);
+                if ($state_value==0){
+                    $earn = get_Earning($u_plan['p_num'],$u_plan['p_money'],$u_plan['p_day']);
+                    $earn = $earn[0][$value-1];
+                    $u_plan['p_balance'] = $u_plan['p_balance'] + $earn;
+                    //将收益的记录放到收益记录表中，再修改u_plan中的balance
+                    //防止重复计算收益
+                    D('U_Plan')->update_Info($up_id,$u_plan);
+                    D('Earning_record')->add_Info($u_plan,$earn);
+                }
+
+
             }
             $ret = array('upid'=>$up_id,'rid'=>$words['r_id'],'num'=>$num,
                 'name'=>$words['w_name'],'symbol'=>$words['w_symbol'],
