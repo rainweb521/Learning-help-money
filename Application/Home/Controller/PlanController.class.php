@@ -132,6 +132,11 @@ class PlanController extends CommonController{
             $num = $u_plan['p_num'] - sizeof($result);
             $num = ($num / $u_plan['p_num']) * 100;
             //如果今日计划已完成，则可以分配收益
+            /**
+             * 这个模块涉及到用户学习天数，我考虑的是，不管学习的内容，也不在earning_record表中修改字段
+             * 只在user表中添加learn_day和learn_date两个字段，然后直接用这两个字段去判断学习的天数，与
+             * 学习什么内容无关，每次收益发放的时候在model层里去判断和修改learn_day和learn_date
+             */
             if ($num==100){
                 //计算今日应得收益
                 //判断今日的收益记录是否已经写入，如果返回的值不是0，则说明已经有了记录

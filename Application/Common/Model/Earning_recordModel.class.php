@@ -27,6 +27,30 @@ class Earning_recordModel extends Model{
         $record['e_date'] = date("Y-m-d");
         $record['r_content'] = '在'.$data['p_name'].'计划中收益'.$money.'元';
         $this->_db->add($record);
+        //修改用户的学习天数
+        /**
+         * 这个模块涉及到用户学习天数，我考虑的是，不管学习的内容，也不在earning_record表中修改字段
+         * 只在user表中添加learn_day和learn_date两个字段，然后直接用这两个字段去判断学习的天数，与
+         * 学习什么内容无关，每次收益发放的时候在model层里去判断和修改learn_day和learn_date
+         */
+        $date = date("Y-m-d");
+        $user = D('Login')->get_Info($data['u_id']);
+        if ($user['learn_date']==''){
+            $user['learn_date'] = $date;
+            $user['learn_day'] = 1;
+        }
+        $day = get_Now_Day($user['learn_date']) - 1;
+        if ($day!=0){
+            if (($day==1)){
+                $user['learn_date'] = $date;
+                $user['learn_day'] = $user['learn_day'] + 1;
+            }else{
+                $user['learn_date'] = $date;
+                $user['learn_day'] = 1;
+            }
+            D('Login')->update_Info($user,$data['u_id']);
+        }
+
     }
     public function get_Now_Info($u_id){
         $date = date("Y-m-d");

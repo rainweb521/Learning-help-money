@@ -55,4 +55,8 @@ class LoginModel extends Model{
         $where['u_id']= $u_id;
         $this->_db->where($where)->save($data);
     }
+    public function get_PhotoList(){
+        $photo_list = $this->_db->field('photo')->select();
+        return $photo_list;
+    }
 }

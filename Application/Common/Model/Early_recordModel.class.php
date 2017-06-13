@@ -15,7 +15,8 @@ class Early_recordModel extends Model{
         $this->_db = M('early_record');
     }
     public function get_AllInfo(){
-        $early = $this->_db->where()->select();
+        $where['u_id'] = $_SESSION['u_id'];
+        $early = $this->_db->where($where)->select();
         return $early;
     }
 

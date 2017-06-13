@@ -27,18 +27,20 @@
             <span style="font-size: 14px;color: #fff">今天已学习人数</span><br>
             <span style="font-size: 16px;color: #F7B824">224</span><br>
             <sapn style="font-size: 14px;color: #fff">您已学习</sapn><br>
-            <span style="font-size: 16px;color: #F7B824">5天</span></span>
+            <span style="font-size: 16px;color: #F7B824">{$day}天</span></span>
     </div>
 
         <section class="mt-1">
             <div class="ps-lt" style="background-color: #f2f2f2;height: 55px;width: 100%;">
                 <div class="lt-dsb" style="height: 20px;background-color: #f2f2f2;">
-                    <p>10人已加入</p>
+                    <p>{$num}人已加入</p>
                 </div>
                 <div class="" style="width:100%;height: 35px;background-color: white;" >
                     <p>
-      <img style="margin:auto;margin-top: 5px; width:30px;height:30px;border-radius:100px;" src="Public/images/head-img.png" width="30px" height="30px">
-                        <img style="margin:auto;margin-top: 5px; width:30px;height:30px;border-radius:100px;" src="Public/images/head-img.png" width="30px" height="30px">
+                        <volist name="photo_list" id="photo">
+                        <img style="margin:auto;margin-top: 5px; width:30px;height:30px;border-radius:100px;" src="{$photo.photo}" width="30px" height="30px">
+                        <!--<img style="margin:auto;margin-top: 5px; width:30px;height:30px;border-radius:100px;" src="Public/images/head-img.png" width="30px" height="30px">-->
+                        </volist>
                     </p>
 
                 </div>
