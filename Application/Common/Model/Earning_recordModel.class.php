@@ -104,4 +104,10 @@ class Earning_recordModel extends Model{
         $result = $this->_db->where($where)->select();
         return $result;
     }
+    public function get_All_Now_LearnNum(){
+        $date = date("Y-m-d");
+        $where['e_date'] = $date;
+        $earn = $this->_db->distinct(true)->where($where)->field('u_id')->select();
+        return $earn;
+    }
 }
