@@ -38,6 +38,7 @@ class Earning_recordModel extends Model{
         if ($user['learn_date']==''){
             $user['learn_date'] = $date;
             $user['learn_day'] = 1;
+            D('Login')->update_Info($user,$data['u_id']);
         }
         $day = get_Now_Day($user['learn_date']) - 1;
         if ($day!=0){
@@ -52,7 +53,18 @@ class Earning_recordModel extends Model{
         }
 
     }
-    public function get_Now_Info($u_id){
+    public function get_Now_Info($u_id, $up_id){
+        $date = date("Y-m-d");
+        $where['e_date'] = $date;
+        $where['u_id'] = $u_id;
+        $where['up_id'] = $up_id;
+        $earn = $this->_db->where($where)->find();
+        if ($earn==''){
+            return 0;
+        }
+        return $earn['e_money'];
+    }
+    public function get_Now_Money($u_id){
         $date = date("Y-m-d");
         $where['e_date'] = $date;
         $where['u_id'] = $u_id;
@@ -62,6 +74,7 @@ class Earning_recordModel extends Model{
         }
         return $earn['e_money'];
     }
+
 
     /**
      * @param $u_id 这里我将遍历这个数据表，然后将提前出来的数据累加，后期如果要改进，可以将money改为balance

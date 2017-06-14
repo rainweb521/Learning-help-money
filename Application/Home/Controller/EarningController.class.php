@@ -15,7 +15,7 @@ class EarningController extends CommonController{
         $result = D('Login')->get_Info($u_id);
         $this->assign('user',$result['mobile']);
         //显示今天的收益
-        $earn = D('Earning_record')->get_Now_Info($u_id);
+        $earn = D('Earning_record')->get_Now_Money($u_id);
         $this->assign('earn',$earn);
         //计算总资产，总资产应该包括账号里的余额和u_plan中的balance+money
         $user_balance = D('Login')->get_Balance($u_id);

@@ -42,7 +42,9 @@ class U_PlanModel extends Model{
         $value = array();
         $sum = 0;
         foreach ($result as $value){
-            $sum += $value['p_balance'] + $value['p_money'];
+//            $sum += $value['p_balance'] + $value['p_money'];
+            $sum += $value['p_balance'] ;
+
         }
         return $sum;
     }

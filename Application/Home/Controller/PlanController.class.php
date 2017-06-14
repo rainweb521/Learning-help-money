@@ -140,7 +140,7 @@ class PlanController extends CommonController{
             if ($num==100){
                 //计算今日应得收益
                 //判断今日的收益记录是否已经写入，如果返回的值不是0，则说明已经有了记录
-                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id']);
+                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id'], $u_plan['up_id']);
                 if ($state_value==0){
                     $earn = get_Earning($u_plan['p_num'],$u_plan['p_money'],$u_plan['p_day']);
                     $earn = $earn[0][$value-1];
@@ -192,7 +192,7 @@ class PlanController extends CommonController{
 
                 //计算今日应得收益
                 //判断今日的收益记录是否已经写入，如果返回的值不是0，则说明已经有了记录
-                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id']);
+                $state_value = D('Earning_record')->get_Now_Info($u_plan['u_id'], $u_plan['up_id']);
                 if ($state_value==0){
                     $earn = get_Earning($u_plan['p_num'],$u_plan['p_money'],$u_plan['p_day']);
                     $earn = $earn[0][$value-1];
