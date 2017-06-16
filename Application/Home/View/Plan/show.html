@@ -14,7 +14,7 @@
 	<div class="loading"><img src="Public/images/ajax-loader.gif"/></div>
 	<div data-role="page" class="index" id="index">
 		<header data-role="header" >
-			<a href="#" data-rel="back"   >返回</a>
+			<a href="/index.php?c=plan" data-rel="back"   >返回</a>
 			<h3>选择计划</h3>
 		</header>
 		<div class="ui-content" data-role="content"> 
@@ -35,13 +35,24 @@
 			</ul>
 			<volist name="plan_arr" id="plan">
 				<dl class="index-year">
-					<a href="index.php?c=plan&a=add&p_id={$plan.p_id}" data-transition="slide" data-ajax="false">
-						<dd>
-							<h4>{$plan.p_name}</h4>
-							<p><small>年化</small>{$plan.p_lilv}</p>
-						</dd>
-						<dt style="font-size: 12px;">{$plan.p_content}</dt>
-					</a>
+					<if condition="$plan.p_state == 1">
+						<a href="index.php?c=plan&a=add&p_id={$plan.p_id}" data-transition="slide" data-ajax="false">
+							<dd>
+								<h4>{$plan.p_name}</h4>
+								<p><small></small>({$plan.p_lilv})</p>
+							</dd>
+							<dt style="font-size: 12px;">{$plan.p_content}</dt>
+						</a>
+					</if>
+					<if condition="$plan.p_state == 2">
+						<a href="index.php?c=plan&a=invite&p_id={$plan.p_id}" data-transition="slide" data-ajax="false">
+							<dd>
+								<h4>{$plan.p_name}</h4>
+								<p><small></small>({$plan.p_lilv})</p>
+							</dd>
+							<dt style="font-size: 12px;">{$plan.p_content}</dt>
+						</a>
+					</if>
 				</dl>
 			</volist>
 			<!--<dl class="index-year">-->

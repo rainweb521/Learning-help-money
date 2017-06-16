@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="viewport" content="height=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
     <title></title>
-    <link rel="stylesheet" href="Public/css/common.css"/>
-    <link rel="stylesheet" href="Public/css/register.css"/>
+    <link rel="stylesheet" href="/Public/css/common.css"/>
+    <link rel="stylesheet" href="/Public/css/register.css"/>
 </head>
 <body>
 <div class="register">
     <div class="regTop">
         <span style="font-size:20px">用户注册</span>
-        <a class="back" href="index.html">&lt;&nbsp;返回</a>
+        <a class="back" href="/index.php">&lt;&nbsp;返回</a>
     </div>
     <div class="content">
         <!-- <div class="point">
@@ -22,8 +22,8 @@
         <form action="index.php?c=login&a=register" method="post">
             <div class="message">
                 <input type="hidden" name="flag" value="1">
-                <input type="tel" name="mobile" placeholder="输入手机号" pattern="[0-9]{11}" required/>
-                <input type="email" name="email" placeholder="请输入邮箱"  required/>
+                <input type="tel" name="text" placeholder="输入手机号" pattern="[0-9]{11}" required/>
+                <input type="email" name="text" placeholder="请输入邮箱"  required/>
                 <input type="password" name="password" placeholder="请输入6-25位密码" pattern="[0-9A-Za-z]{6,25}" required/>
                 <input type="password" name="c_password" placeholder="请再次输入密码" pattern="[0-9A-Za-z]{6,25}" required/>
                 <!--  <select name="job">
@@ -31,6 +31,7 @@
                      <option value="boss">老板</option>
                      <option value="staff">员工</option>
                  </select> -->
+                <br>
                 <div class="icons">
                     <b><img src="Public/images/zc-1.jpg" alt=""/></b>
                     <b><img src="Public/images/zc-2.jpg" alt=""/></b>

@@ -24,7 +24,7 @@
                 <a href="index.php?c=setting&a=update_self"  data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon" >修改资料<small>***</small></a>
             </dd>
             <dd>
-                <a href="" data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon">验证邮箱<small>13689781546</small></a>
+                <a href="" data-ajax="false" class="ui-btn ui-icon-appright ui-btn-icon-right ui-nodisc-icon">验证邮箱<small>***</small></a>
             </dd>
 
             <dd>

@@ -61,7 +61,7 @@ class PlanController extends CommonController{
                     $result[$i]['r_state'] = 0;
                     $sum ++;
                     $result[$i]['r_day_num'] = $sum;
-                    if ($sum>=10) $sum = 0;
+                    if ($sum>=$arr['p_day']) $sum = 0;
                 }
                 //将所有获取到的单词全部填入数据库
                 D('Words_record')->set_AllInfo($result,$num);
@@ -76,7 +76,7 @@ class PlanController extends CommonController{
                     $result[$i]['r_state'] = 0;
                     $sum ++;
                     $result[$i]['r_day_num'] = $sum;
-                    if ($sum>=10) $sum = 0;
+                    if ($sum>=$arr['p_day']) $sum = 0;
                 }
                 //将所有获取到的单词全部填入数据库
                 D('Words_record')->set_AllInfo($result,$num);
@@ -91,7 +91,7 @@ class PlanController extends CommonController{
                     $result[$i]['r_state'] = 0;
                     $sum ++;
                     $result[$i]['r_day_num'] = $sum;
-                    if ($sum>=10) $sum = 0;
+                    if ($sum>=$arr['p_id']) $sum = 0;
                 }
                 //将所有获取到的单词全部填入数据库
                 D('Words_record')->set_AllInfo($result,$num);
@@ -104,13 +104,12 @@ class PlanController extends CommonController{
     }
     public function show(){
         $tip = request('get','int','tip',0);
-//        if($tip!=0)
-        {
-            $plan_arr = D('Plan')->get_AllInfo();
-            $this->assign('plan_arr',$plan_arr);
-//            var_dump($plan_arr);
-//            exit();
+        if($tip==0){
+            $plan_arr = D('Plan')->get_PlanList();
+        }else{
+            $plan_arr = D('Plan')->get_AllInfo($tip);
         }
+        $this->assign('plan_arr',$plan_arr);
         $this->display();
     }
 
@@ -128,9 +127,10 @@ class PlanController extends CommonController{
             $date1=strtotime(date("Y-m-d"));
             $date2=strtotime($u_plan['p_date']);
             $value = round(($date1-$date2)/3600/24) + 1;
-            $result = D('Words_record')->get_Day_Info($value,$up_id);
+            $result = D('Words_record')->get_Day_Info($value,$up_id,$_SESSION['u_id']);
             $num = $u_plan['p_num'] - sizeof($result);
             $num = ($num / $u_plan['p_num']) * 100;
+            $num = round($num,0);
             //如果今日计划已完成，则可以分配收益
             /**
              * 这个模块涉及到用户学习天数，我考虑的是，不管学习的内容，也不在earning_record表中修改字段
@@ -179,9 +179,10 @@ class PlanController extends CommonController{
             $date1=strtotime(date("Y-m-d"));
             $date2=strtotime($u_plan['p_date']);
             $value = round(($date1-$date2)/3600/24) + 1;
-            $result = D('Words_record')->get_Day_Info($value,$up_id);
+            $result = D('Words_record')->get_Day_Info($value,$up_id,$_SESSION['u_id']);
             $num = $u_plan['p_num'] - sizeof($result);
             $num = ($num / $u_plan['p_num']) * 100;
+            $num = round($num,0);
 
 //            $this->assign('num',$num);
 //            $this->assign('up_id',$up_id);
@@ -253,5 +254,11 @@ class PlanController extends CommonController{
         $earn_arr = get_Earning($words,$money,$day);
         $ret = array('sum'=>$earn_arr[1],'max'=>$earn_arr[0][$day-1]);
         echo json_encode($ret);
+    }
+    public function invite(){
+        $p_id = request('get','int','p_id',0);
+        if($p_id!=0){
+            $this->display();
+        }
     }
 }

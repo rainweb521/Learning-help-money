@@ -14,7 +14,7 @@
 	<div class="loading"><img src="Public/images/ajax-loader.gif"/></div>
 	<div data-role="page" class="index" id="index">
 		<header data-role="header" >
-			<a href="#" data-rel="back"   >返回</a>
+			<a href="/index.php?c=plan" data-rel="back"   >返回</a>
 			<h3>选择计划</h3>
 		</header>
 		<div class="ui-content" data-role="content"> 
@@ -34,13 +34,20 @@
 				</li>
 			</ul>
 			<?php if(is_array($plan_arr)): $i = 0; $__LIST__ = $plan_arr;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$plan): $mod = ($i % 2 );++$i;?><dl class="index-year">
-					<a href="index.php?c=plan&a=add&p_id=<?php echo ($plan["p_id"]); ?>" data-transition="slide" data-ajax="false">
-						<dd>
-							<h4><?php echo ($plan["p_name"]); ?></h4>
-							<p><small>年化</small><?php echo ($plan["p_lilv"]); ?></p>
-						</dd>
-						<dt style="font-size: 12px;"><?php echo ($plan["p_content"]); ?></dt>
-					</a>
+					<?php if($plan["p_state"] == 1): ?><a href="index.php?c=plan&a=add&p_id=<?php echo ($plan["p_id"]); ?>" data-transition="slide" data-ajax="false">
+							<dd>
+								<h4><?php echo ($plan["p_name"]); ?></h4>
+								<p><small></small>(<?php echo ($plan["p_lilv"]); ?>)</p>
+							</dd>
+							<dt style="font-size: 12px;"><?php echo ($plan["p_content"]); ?></dt>
+						</a><?php endif; ?>
+					<?php if($plan["p_state"] == 2): ?><a href="index.php?c=plan&a=invite&p_id=<?php echo ($plan["p_id"]); ?>" data-transition="slide" data-ajax="false">
+							<dd>
+								<h4><?php echo ($plan["p_name"]); ?></h4>
+								<p><small></small>(<?php echo ($plan["p_lilv"]); ?>)</p>
+							</dd>
+							<dt style="font-size: 12px;"><?php echo ($plan["p_content"]); ?></dt>
+						</a><?php endif; ?>
 				</dl><?php endforeach; endif; else: echo "" ;endif; ?>
 			<!--<dl class="index-year">-->
 				<!--<a href="index.php?c=plan&a=add&tip=1" data-transition="slide" data-ajax="false">-->

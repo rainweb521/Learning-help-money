@@ -29,7 +29,7 @@ class LoginController extends CommonController {
 //            exit();
             if(!empty($result)){//如果有内容则不运行，如果找到用户名
                 if($result['password']!=$password){
-                    $this->assign('state','密码错误1');
+                    $this->assign('state','密码错误');
 
                     $this->display();
                 } else{
@@ -41,7 +41,7 @@ class LoginController extends CommonController {
 //                var_dump($result2);
 //                exit();
                 if($result2['password']!=$password){
-                    $this->assign('state','密码错误2');
+                    $this->assign('state','密码错误');
                     $this->display();
                 } else{
                     session('u_id',$result2['u_id']);

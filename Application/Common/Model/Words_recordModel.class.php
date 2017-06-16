@@ -27,9 +27,10 @@ class Words_recordModel extends Model{
             $this->set_Info($result[$i]);
         }
     }
-    public function get_Day_Info($value,$up_id){
+    public function get_Day_Info($value,$up_id,$u_id){
         $where['r_day_num'] = $value;
         $where['up_id'] = $up_id;
+        $where['u_id'] = $u_id;
         $where['r_state'] = 0;
         $result = $this->_db->where($where)->select();
         return $result;

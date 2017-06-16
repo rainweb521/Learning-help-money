@@ -14,7 +14,8 @@ class PlanModel extends Model{
     public function __construct() {
         $this->_db = M('plan');
     }
-    public function get_AllInfo(){
+    public function get_AllInfo($p_status){
+        $where['p_state'] = $p_status;
         $where['p_status'] = 1;
         $plan_arr = $this->_db->where($where)->select();
         return $plan_arr;
