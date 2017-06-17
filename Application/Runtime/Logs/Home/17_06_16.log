@@ -218,3 +218,36 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
 
+[ 2017-06-16T13:06:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015201s ]
+NOTIC: [8] Undefined index: u_id D:\phpStudy\WWW\wap\Application\Home\Controller\CommonController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: module D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\phpStudy\WWW\wap\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-06-16T13:06:18+08:00 ] 127.0.0.1 /index.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013223s ]
+
